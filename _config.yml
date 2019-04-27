@@ -78,7 +78,9 @@ theme: hexo-theme-book
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/kaiiiz/hexo-theme-book-demo
+  branch: gh-pages
 
 markdown:
   render:
