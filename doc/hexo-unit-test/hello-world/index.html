@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head><meta name="generator" content="Hexo 3.8.0">
+    <meta charset="UTF-8">
+
+    <title>
+        
+          Hello World - Book-DEMO
+        
+    </title>
+
+    <!-- Spectre.css framework (v0.5.8) -->
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+
+    <!-- Noto Sans TC -->
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC" rel="stylesheet">
+
+    <!-- theme css & js -->
+    <link rel="stylesheet" href="/css/spectre_custom.css">
+    <link rel="stylesheet" href="/css/book.css">
+    <script src="/js/book.js"></script>
+
+    <!-- tocbot -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+
+    <!-- highlight.js -->
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script>
+
+    <!-- lightgallery.js -->
+    
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+</head>
+
+<body>
+
+<div class="container">
+  <div class="book-container">
+    <div class="columns">
+      
+      <div class="column col-2 book-nav">
+        <h4 class="site-meta">
+    <a href="/">Book-DEMO</a>
+</h4>
+
+
+
+<div class="sidebar-content">
+    
+        
+            <ul class="book-nav-book"><li><a href="https://github.com/hexojs/hexo-theme-unit-test">hexo-unit-test</a><ul class="book-nav-book"><li><a href="/hexo-unit-test/categories">Categories</a></li></ul><ul class="book-nav-book"><li><a href="/hexo-unit-test/elements">Elements</a></li></ul><ul class="book-nav-book"><li><a href="/hexo-unit-test/excerpts">Excerpts</a></li></ul><ul class="book-nav-book"><li><a href="/hexo-unit-test/gallery-post">Gallery Post</a></li></ul><ul class="book-nav-book"><li><a href="/hexo-unit-test/hello-world">Hello World</a></li></ul><ul class="book-nav-book"><li><a href="/hexo-unit-test/images">Images</a></li></ul><ul class="book-nav-book"><li><a href="/hexo-unit-test/link-post-without-title">Untitled</a></li></ul><ul class="book-nav-book"><li><a href="/hexo-unit-test/link-post">Link Post</a></li></ul><ul class="book-nav-book"><li><a href="/hexo-unit-test/long-title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam justo turpis, tincidunt ac convallis id.</a></li></ul><ul class="book-nav-book"><li><a href="/hexo-unit-test/no-title">Untitled</a></li></ul><ul class="book-nav-book"><li><a href="/hexo-unit-test/tag-plugins">Tag Plugins</a></li></ul><ul class="book-nav-book"><li><a href="/hexo-unit-test/tags">Tags</a></li></ul><ul class="book-nav-book"><li><a href="/hexo-unit-test/videos">Videos</a></li></ul><ul class="book-nav-book"><li><a href="/hexo-unit-test/中文測試">中文測試</a></li></ul><ul class="book-nav-book"><li><a href="/hexo-unit-test/日本語テスト">日本語テスト</a></li></ul></li></ul>
+        
+            <ul class="book-nav-book"><li><a href="/markdown-it-demo">markdown-it demo</a></li></ul>
+        
+            <ul class="book-nav-book"><li><a href="/katex-demo">katex demo</a></li></ul>
+        
+    
+</div>
+
+<script>
+document.querySelectorAll('.sidebar-content a').forEach(function(item){ 
+    if(item.href === window.location.href || item.href === window.location.href.slice(0, -1)) {
+        item.className = "book-nav-current"
+    }
+})
+</script>
+      </div>
+
+      <div class="column col-10">
+        <div class="book-content">
+          <div class="columns">
+  <div class="column col-10">
+    <div class="book-post">
+      <p>Welcome to <a href="http://zespia.tw/hexo" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="http://zespia.tw/hexo/docs" target="_blank" rel="noopener">documentation</a> to learn how to use.</p>
+
+    </div>
+  </div>
+  <div class="column col-2">
+    <div class="book-toc">
+      <div class="book-tocbot">
+      </div>
+      <div class="book-tocbot-menu">
+        <a class="book-toc-expand" onclick="expand_toc()">Expand all</a>
+        <a onclick="go_top()">Back to top</a>
+        <a onclick="go_bottom()">Go to bottom</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+tocbot.init({
+  tocSelector: '.book-tocbot',
+  contentSelector: '.book-post',
+  headingSelector: 'h1, h2, h3, h4, h5',
+  collapseDepth: 2,
+  orderedList: false,
+  scrollSmooth: false,
+});
+
+function expand_toc(){
+  var b = document.querySelector(".book-toc-expand");
+  tocbot.init({
+    tocSelector: '.book-tocbot',
+    contentSelector: '.book-post',
+    headingSelector: 'h1, h2, h3, h4, h5',
+    collapseDepth: 6,
+    orderedList: false,
+    scrollSmooth: false,
+  });
+  b.setAttribute("onclick", "collapse_toc()");
+  b.innerHTML = "Collapse all"
+}
+
+function collapse_toc(){
+  var b = document.querySelector(".book-toc-expand");
+  tocbot.init({
+    tocSelector: '.book-tocbot',
+    contentSelector: '.book-post',
+    headingSelector: 'h1, h2, h3, h4, h5',
+    collapseDepth: 2,
+    orderedList: false,
+    scrollSmooth: false,
+  });
+  b.setAttribute("onclick", "expand_toc()");
+  b.innerHTML = "Expand all"
+}
+
+function go_top() {
+  window.scrollTo(0, 0);
+}
+
+function go_bottom() {
+  window.scrollTo(0, document.body.scrollHeight);
+}
+
+</script>
+
+
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
