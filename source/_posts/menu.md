@@ -16,6 +16,8 @@
     * [Videos](/hexo-theme-book-demo/hexo-unit-test/videos)
     * [中文測試](/hexo-theme-book-demo/hexo-unit-test/中文測試)
     * [日本語テスト](/hexo-theme-book-demo/hexo-unit-test/日本語テスト)
+  * [繁體中文測試](/hexo-theme-book-demo/tc-test)
+  * [简体中文测试](/hexo-theme-book-demo/sc-test)
 * Demo
   * [markdown-it demo](/hexo-theme-book-demo/markdown-it-demo)
   * [katex demo](/hexo-theme-book-demo/katex-demo)
