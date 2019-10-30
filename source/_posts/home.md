@@ -6,8 +6,6 @@ comments: false
 
 This is the demo of [hexo-theme-book](https://github.com/kaiiiz/hexo-theme-book) :)
 
-Another demo of this theme, visit my personal [note](https://kaiiiz.github.io/note/)
-
 ## Contribution
 
 * Feel free to open **issue** in the github repo if you have any suggestions to this theme.
