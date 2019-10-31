@@ -22,6 +22,13 @@ comments: false
   :---:  | :---:  | :---:
   a      | b      | c
   d      | e      | f
-  g      | h      | i
-* Still in same list
+  * Still in same list
+    col1   | col2   | col3
+    :---:  | :---:  | :---:
+    a      | b      | c
+    d      | e      | f
+* Code in list
+  ```
+  test
+  ```
 
