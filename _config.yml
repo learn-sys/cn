@@ -105,6 +105,14 @@ markdown:
     - markdown-it-sup
     - markdown-it-checkbox
     - '@iktakahiro/markdown-it-katex'
+    - name: markdown-it-container
+      options: success
+    - name: markdown-it-container
+      options: info
+    - name: markdown-it-container
+      options: warning
+    - name: markdown-it-container
+      options: danger
   anchors:
     # Minimum level for ID creation. (Ex. h2 to h6)
     level: 1
