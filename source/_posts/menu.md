@@ -1,6 +1,5 @@
 * [Home](/hexo-theme-book-demo)
-* [hexo-theme-book](https://github.com/kaiiiz/hexo-theme-book)
-* [hexo-theme-book-demo](https://github.com/kaiiiz/hexo-theme-book-demo)
+* [Changelog](/hexo-theme-book-demo/changelog)
 
 # Test
 
@@ -28,6 +27,8 @@
 
 # Demo
 
+* [Menu Realtime Demo](/hexo-theme-book-demo/demo/menu-realtime)
+
 ## Render
 
 * [markdown-it demo](/hexo-theme-book-demo/demo/render/markdown-it-demo)
@@ -37,7 +38,7 @@
 ## Lorem Ipsum
 
 * [English](/hexo-theme-book-demo/demo/lorem-ipsum/en-demo)
-* [繁體中文](/hexo-theme-book-demo/demo/lorem-ipsum/tc-demo)
-* [简体中文](/hexo-theme-book-demo/demo/lorem-ipsum/sc-demo)
 * [Japanese](/hexo-theme-book-demo/demo/lorem-ipsum/jp-demo)
 * [Korean](/hexo-theme-book-demo/demo/lorem-ipsum/kr-demo)
+* [Traditional Chinese](/hexo-theme-book-demo/demo/lorem-ipsum/tc-demo)
+* [Simplified Chinese](/hexo-theme-book-demo/demo/lorem-ipsum/sc-demo)

@@ -2,6 +2,8 @@
 comments: false
 ---
 
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
 # Hello
 
 This is the demo of [hexo-theme-book](https://github.com/kaiiiz/hexo-theme-book) :)
