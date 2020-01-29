@@ -142,9 +142,9 @@ function tricky_back_top() {
 - this unordered list will find H2
 - so it becomes a collapsed menu
 
-> insert an invalid syntax, which separates two lists
+> in order to separates two lists, just insert an invalid syntax
 
-- this unordered list will find H1
+- this unordered list will skip H2 and find H1
 - so it becomes an uncollapsed menu
 `
     render_demo()

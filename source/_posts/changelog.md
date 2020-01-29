@@ -2,10 +2,10 @@
 title: Changelog
 ---
 
-**v2.0.0 - 2020**
+**v2.0.0 - 2020/01/30**
 
 * Redesign whole theme
-* More powerful menu system, check [Menu Realtime Demo](/hexo-theme-book-demo/menu-realtime/)
+* More powerful menu system, check [Menu Realtime Demo](/hexo-theme-book-demo/demo/menu-realtime/)
 
 **v1.0.0 - 2019/07/23**
 
