@@ -106,13 +106,11 @@ markdown:
     - markdown-it-checkbox
     - '@iktakahiro/markdown-it-katex'
     - name: markdown-it-container
-      options: success
+      options: note
     - name: markdown-it-container
-      options: info
+      options: tip
     - name: markdown-it-container
-      options: warning
-    - name: markdown-it-container
-      options: danger
+      options: attention
   anchors:
     # Minimum level for ID creation. (Ex. h2 to h6)
     level: 1

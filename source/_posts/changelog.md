@@ -2,6 +2,20 @@
 title: Changelog
 ---
 
+**v2.1.0 - 2020/03/25**
+
+**Enhancement**
+
+* Focus mode
+* Adjust post style
+* Support markdown container style: `note`, `tip`, `attention` ([pr#12](https://github.com/kaiiiz/hexo-theme-book/pull/12))
+
+**Bug Fix**
+
+* Blockquote position
+
+---
+
 **v2.0.0 - 2020/01/30**
 
 * Redesign whole theme

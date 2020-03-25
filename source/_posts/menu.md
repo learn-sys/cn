@@ -24,6 +24,7 @@
 ## bugfix
 
 * [list test](/hexo-theme-book-demo/test/bugfix/list-test)
+* [blockquote position](/hexo-theme-book-demo/test/bugfix/blockquote-position)
 
 # Demo
 
@@ -34,6 +35,7 @@
 * [markdown-it demo](/hexo-theme-book-demo/demo/render/markdown-it-demo)
 * [katex demo](/hexo-theme-book-demo/demo/render/katex-demo)
 * [footnotes demo](/hexo-theme-book-demo/demo/render/footnotes-demo)
+* [markdown-container](/hexo-theme-book-demo/demo/render/md-container)
 
 ## Lorem Ipsum
 
