@@ -14,6 +14,7 @@ This is the demo of [hexo-theme-book](https://github.com/kaiiiz/hexo-theme-book)
 
 ## Timeline
 
+* 2020/10/10 - v3.0.0 release
 * 2020/03/25 - v2.1.0 release
 * 2020/01/30 - v2.0.0 release
 * 2020/01/24 - v2.0.0 beta testing :fire:
