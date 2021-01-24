@@ -1,0 +1,31 @@
+home_page: home.md        # filepath under /source/
+menu_page: menu.md        # filepath under /source/
+author_img:               # filepath of author image
+favicon_url: favicon.png  # filepath of favicon
+
+zoom_image: true
+codeblock:
+  # Code Highlight theme
+  # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
+  highlight_theme: normal
+
+comments:
+  utterances:
+    enable: false
+    user: # your github user name
+    repo: # your github repo name
+    theme: github-light # github-light | github-dark | github-dark-orange | icy-dark | dark-blue | photon-dark
+  disqus:
+    enable: false
+    shortname: # your disqus shortname
+  gitalk:
+    enable: false
+    githubID: # your github id
+    repo: # GitHub repository e.g. kaiiiz.github.io
+    ClientID: # GitHub Application Client ID
+    ClientSecret: # GitHub Application Client Secret
+    adminUser: # GitHub repository owner and collaborators
+    labels: 'gitalk' # GitHub issue labels
+    distractionFreeMode: true
+
+google_analytics: # UA-XXXXX-Y
