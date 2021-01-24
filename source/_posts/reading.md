@@ -11,9 +11,11 @@ post_meta: false
 
 ## 游戏规则
 
-活动将每周进行一次，每次两小时，每小时一组，每组两人。其中包括20分钟的paper presentation，20分钟的Q&A，以及20分钟的分组讨论（6人一组）。在presentation之前，presenter需要准备以CC BY-NC-SA 4.0开源的slides，并提前上传到本页面，原则上不可以使用他人的slides，但允许使用发表在论文中、或由论文作者提供的图片、表格和代码；presentation的时间分配每人至少五分钟； presentation鼓励使用英语，但不强制。在Q&A环节，除提问者外，所有人都需要提出问题或者评论，可以是针对论文的，也可以是针对presenter的slides的；提问顺序由主持人钦定。
+活动将每周进行一次，每次两小时，每小时一组，每组两人。其中包括20分钟的paper presentation，20分钟的Q&A，以及20分钟的分组讨论（6人一组，presenter和主持人会随机乱逛）。在presentation之前，presenter需要准备以CC BY-NC-SA 4.0开源的slides，并提前上传到本页面，原则上不可以使用他人的slides，但允许使用发表在论文中、或由论文作者提供的图片、表格和代码；presentation的时间分配每人至少五分钟； presentation鼓励使用英语，但不强制。在Q&A环节，除提问者外，鼓励所有人提出问题或者评论，可以是针对论文的，也可以是针对presenter的slides的；若无人主动提问，主持人会钦定提问者。
 
 在每周的活动前，所有组员应自学该周活动对应的参考资料。参考资料包括论文（至少要大概了解）和视频（约每周一小时）。目前，视频主要来自清华大学的高级操作系统（[课程主页](http://os.cs.tsinghua.edu.cn/oscourse/AOS2020)/[B站](https://www.bilibili.com/video/BV1pC4y1x7iw?p=1))，感谢陈渝老师提供这些视频。
+
+长期不来的同学将被移除小组。
 
 ## 准入门槛
 
@@ -35,7 +37,7 @@ post_meta: false
 
 我们也欢迎志愿做主持人的老师和同学，请通过 [GitHub Issues](https://github.com/learn-os-cn/learn-os-cn.github.io/issues) 联系我们。
 
-## 论文、参考资料和时间表
+## 参考资料与时间表
 
 ### W1：操作系统
 
