@@ -39,6 +39,10 @@ post_meta: false
 
 ## 参考资料与时间表
 
+### W0：破冰
+
+* 自我介绍、分组、游戏规则
+
 ### W1：操作系统
 
 * Video: [THU AOS P7 - P11](https://www.bilibili.com/video/BV1pC4y1x7iw?p=7)
