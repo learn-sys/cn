@@ -1,22 +1,38 @@
 ---
 title: 'Home'
 comments: false
+post_meta: false
 ---
 
-# Hello
+# 计算机系统学习小组
 
-This is the demo of [hexo-theme-book](https://github.com/kaiiiz/hexo-theme-book) :)
+这是一个由志愿者驱动的、旨在为自学若干门系统方向的公开课的小伙伴提供**抱团取暖**平台的、不负责任的网站  :)
 
-## Contribution
+## 课程与活动
 
-* Feel free to open **issue** in the github repo if you have any suggestions to this theme.
-* Also, you can **pull request** directly if there exist any unsolved bugs.
+* CMU CSAPP: 计算机系统基础 :fire:
+* MIT 6.S081/6.828: 徒手造操作系统
+* 经典论文阅读计划：计算机系统领域经典论文的阅读和分享
+* 线上面基：全球最?的??交友网站？
 
-## Timeline
+## 召唤小伙伴
 
-* 2020/10/10 - v3.0.0 release
-* 2020/03/25 - v2.1.0 release
-* 2020/01/30 - v2.0.0 release
-* 2020/01/24 - v2.0.0 beta testing :fire:
-* 2019/07/03 - Submit this theme to [hexo.io](https://hexo.io/themes/) ([pr#986](https://github.com/hexojs/site/pull/986))
-* 2019/04/28 - For more scalability, I developed this theme for my personal note used
+欢迎大家加群交流。不同的群有不同的准入门槛（主要是要求独立完成课程的若干个Lab证明你没在摸鱼:fish:）。希望大家在加群前至少先自学一部分公开课，加群后积极讨论。
+
+这是一个由自愿者驱动的自学社区，没有人有回答问题的义务；但是，如果你觉得别人的回答有用，请在下次积极参与回答。
+
+## 召唤志愿者
+
+欢迎大家挖新的坑。
+
+欢迎抱团群的群主们通过 **Pull Request** 加入新的课程交流群。
+
+欢迎大家来 present 你自己的、你老板的、你基友的、以及和你没什么关系的文章。
+
+欢迎业界和学术界的大佬带大家起飞。
+
+欢迎科研狗来打广告招人。
+
+## 新鲜事，简单报
+
+* 2020/09/08 - 6.S081交流群成立

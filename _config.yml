@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: book-demo
+title: learn-os.cn
 subtitle:
 description:
 keywords:
-author: kaiiiz
+author: admin
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://kaiiiz.github.io/hexo-theme-book-demo
-root: /hexo-theme-book-demo/
+url: https://learn-os-cn.github.io/
+root: /
 permalink: :title/
 permalink_defaults:
 
@@ -79,7 +79,7 @@ theme: hexo-theme-book
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/kaiiiz/hexo-theme-book-demo
+  repo: git@github.com:learn-os-cn/learn-os-cn.github.io
   branch: gh-pages
 
 markdown:
