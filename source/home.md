@@ -23,9 +23,11 @@ post_meta: false
 
 ## 召唤志愿者
 
+**欢迎大家帮助完善这个网站，请使用 [Pull Requests](https://github.com/learn-os-cn/learn-os-cn.github.io/pulls) 或在 [GitHub Issues](https://github.com/learn-os-cn/learn-os-cn.github.io/issues) 中让我们把你加入organization。**
+
 欢迎大家挖新的坑。
 
-欢迎抱团群的群主们通过 [Pull Requests](https://github.com/learn-os-cn/learn-os-cn.github.io/pulls) 加入新的课程交流群。
+欢迎抱团群的群主们通过 [Pull Requests](https://github.com/learn-os-cn/learn-os-cn.github.io/pulls) 或 [GitHub Issues](https://github.com/learn-os-cn/learn-os-cn.github.io/issues) 加入新的课程交流群。
 
 欢迎大家来 present 你自己的、你老板的、你基友的、以及和你没什么关系的文章。
 
