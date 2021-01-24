@@ -53,6 +53,7 @@ post_meta: false
 
 ### W3：分布式系统
 
+* **Video or invited lecture wanted!**
 * [The Google File System](https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
 * [MapReduce: Simplified Data Processing on Large Clusters](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
 
@@ -66,21 +67,21 @@ post_meta: false
 * [Meltdown](https://meltdownattack.com/meltdown.pdf) and [Specture](https://spectreattack.com/spectre.pdf) (two papers in a pack)
 * [TaintDroid: an information-flow tracking system for realtime privacy monitoring on smartphones](https://www.usenix.org/legacy/events/osdi10/tech/full_papers/Enck.pdf)
 
-### W5：FPGA、GPU
+### W6：FPGA、GPU
 
 * What's the best paper for FPGA? AmorphOS, Coyote, Cascade, or Catapult?
 * What's the best paper for GPU/CUDA?
 
-### W6：网络
+### W7：网络
 * Infiniswap?
 * What's the best networking paper to read? Find one from Facebook?
 
-### W7：机器学习
+### W8：机器学习
 * [TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf)
 * [TVM: An Automated End-to-End Optimizing Compiler for Deep Learning](https://arxiv.org/pdf/1802.04799.pdf)
 
-### W8：新内存
+### W9：新内存
 * transactional memory
 * NVM
 
-### W9：形式化验证
+### W10：形式化验证
