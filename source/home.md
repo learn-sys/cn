@@ -25,7 +25,7 @@ post_meta: false
 
 欢迎大家挖新的坑。
 
-欢迎抱团群的群主们通过 **Pull Request** 加入新的课程交流群。
+欢迎抱团群的群主们通过 [pull requests](https://github.com/learn-os-cn/learn-os-cn.github.io/pulls) 加入新的课程交流群。
 
 欢迎大家来 present 你自己的、你老板的、你基友的、以及和你没什么关系的文章。
 
