@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: learn-os.cn
+title: LearnSys
 subtitle:
 description:
 keywords:
@@ -13,8 +13,8 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://learn-os-cn.github.io/
-root: /
+url: https://learn-sys.github.io/cn
+root: /cn
 permalink: :title/
 permalink_defaults:
 
@@ -79,7 +79,7 @@ theme: hexo-theme-book
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:learn-os-cn/learn-os-cn.github.io
+  repo: git@github.com:learn-sys/cn
   branch: gh-pages
 
 markdown:
