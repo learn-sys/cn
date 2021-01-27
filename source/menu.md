@@ -14,3 +14,4 @@
 
 * [AEGIS Webinar](https://aegis-readers.github.io/About/)
 * [Awesome CS Courses](https://github.com/prakhar1989/awesome-courses)
+* [OSSU](https://github.com/ossu/computer-science)
