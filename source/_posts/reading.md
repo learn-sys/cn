@@ -89,6 +89,7 @@ post_meta: false
 ### W7：网络
 * Infiniswap?
 * What's the best networking paper to read? Find one from Facebook?
+* [Learning in situ: a randomized experiment in video streaming](https://www.usenix.org/conference/nsdi20/presentation/yan)    Presenter: Yuanli Wang @pentium3
 
 ### W8：机器学习
 * [TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf)
