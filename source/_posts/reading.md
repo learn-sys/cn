@@ -97,6 +97,7 @@ post_meta: false
 
 ### W9：新内存
 * transactional memory
-* NVM
+* [FPTree: A Hybrid SCM-DRAM Persistent and Concurrency B-Tree for Storage Class Memory](https://wwwdb.inf.tu-dresden.de/misc/papers/2016/Oukid_FPTree.pdf)
+
 
 ### W10：形式化验证
