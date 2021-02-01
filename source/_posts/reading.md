@@ -85,6 +85,8 @@ post_meta: false
 ### W6：FPGA、GPU
 
 * What's the best paper for FPGA? AmorphOS, Coyote, Cascade, or Catapult?
+* [Catapult](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/Catapult_ISCA_2014.pdf), [Enzian](http://enzian.systems/), [AmorphOS](https://www.usenix.org/system/files/osdi18-khawaja.pdf), [Optimus](https://dl.acm.org/doi/abs/10.1145/3373376.3378482), and [Coyote](https://www.usenix.org/system/files/osdi20-korolija.pdf) (a bunch of papers in a bundle)
+  * Presenter: [Jiacheng Ma](https://jcma/me)
 * What's the best paper for GPU/CUDA?
 
 ### W7：网络
