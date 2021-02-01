@@ -61,6 +61,7 @@ post_meta: false
 * [Live Migration of Virtual Machines](https://web.eecs.umich.edu/~mosharaf/Readings/Live-Migrate-VM.pdf)
   * Presenter: ZeJiong Dong & Ruilin Wen
 * [Memory Resource Management in VMware ESX Server](https://www.usenix.org/legacy/event/osdi02/tech/full_papers/waldspurger/waldspurger.pdf)
+  * Presenter: Jin Zhang
 
 ### W3：FPGA上的系统支持、从0开始写系统全家桶
 
