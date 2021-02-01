@@ -102,6 +102,7 @@ post_meta: false
   * Presenter: [Jinming Hu](https://conanhujinming.github.io/)
   * Presenter: [Simei He]
 * [TVM: An Automated End-to-End Optimizing Compiler for Deep Learning](https://arxiv.org/pdf/1802.04799.pdf)
+  * Presenter: [Cong Ding](https://tson1111.github.io/)
 
 ### W10：新内存
 * transactional memory
