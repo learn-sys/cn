@@ -62,48 +62,49 @@ post_meta: false
   * Presenter: ZeJiong Dong & Ruilin Wen
 * [Memory Resource Management in VMware ESX Server](https://www.usenix.org/legacy/event/osdi02/tech/full_papers/waldspurger/waldspurger.pdf)
 
-### W3：分布式系统
+### W3：FPGA上的系统支持、分布式系统（一）
 
-* **Video or invited lecture wanted!**
+* [Catapult](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/Catapult_ISCA_2014.pdf), [Enzian](http://enzian.systems/), [AmorphOS](https://www.usenix.org/system/files/osdi18-khawaja.pdf), [Optimus](https://dl.acm.org/doi/abs/10.1145/3373376.3378482), and [Coyote](https://www.usenix.org/system/files/osdi20-korolija.pdf) (a bunch of papers in a bundle)
+  * Presenter: [Jiacheng Ma](https://jcma/me)
 * [The Google File System](https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
   * Presenter: Xiangyun Ding
+
+### W4：分布式系统（二）
+
 * [MapReduce: Simplified Data Processing on Large Clusters](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
   * Presenter: Wenyan Li
 * [Time, Clocks, and the Ordering of Events in a Distributed System](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)
   * Presenter: Junchen Li
   * Presenter: Yi Zhang
 
-### W4：程序分析、Debugging
+### W5：程序分析、Debugging
 
 * [KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs](http://www.doc.ic.ac.uk/~cristic/papers/klee-osdi-08.pdf) (Is this the best paper of symbolic execution?)
 * [ReVirt: enabling intrusion analysis through virtual-machine logging and replay](https://people.eecs.berkeley.edu/~kubitron/courses/cs262a-F14/handouts/papers/dunlap02.pdf)
 
-### W5：安全和隐私
+### W6：安全和隐私
 
 * [Meltdown](https://meltdownattack.com/meltdown.pdf) and [Specture](https://spectreattack.com/spectre.pdf) (two papers in a pack)
 * [TaintDroid: an information-flow tracking system for realtime privacy monitoring on smartphones](https://www.usenix.org/legacy/events/osdi10/tech/full_papers/Enck.pdf)
 
-### W6：FPGA、GPU
+### W7：GPU
 
-* What's the best paper for FPGA? AmorphOS, Coyote, Cascade, or Catapult?
-* [Catapult](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/Catapult_ISCA_2014.pdf), [Enzian](http://enzian.systems/), [AmorphOS](https://www.usenix.org/system/files/osdi18-khawaja.pdf), [Optimus](https://dl.acm.org/doi/abs/10.1145/3373376.3378482), and [Coyote](https://www.usenix.org/system/files/osdi20-korolija.pdf) (a bunch of papers in a bundle)
-  * Presenter: [Jiacheng Ma](https://jcma/me)
-* What's the best paper for GPU/CUDA?
+* [gVirt](https://01.org/sites/default/files/documentation/gvirt-final-2_0.pdf) (This may not be the best paper, but it's the first paper in full GPU virtualization. If anyone has a better idea, please overwrite this one.)
 
-### W7：网络
+### W8：网络
 * Infiniswap?
 * What's the best networking paper to read? Find one from Facebook?
 * [Learning in situ: a randomized experiment in video streaming](https://www.usenix.org/conference/nsdi20/presentation/yan)    Presenter: Yuanli Wang @pentium3
 
-### W8：机器学习
+### W9：机器学习
 * [TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf)
   * Presenter: [Jinming Hu](https://conanhujinming.github.io/)
   * Presenter: [Simei He]
 * [TVM: An Automated End-to-End Optimizing Compiler for Deep Learning](https://arxiv.org/pdf/1802.04799.pdf)
 
-### W9：新内存
+### W10：新内存
 * transactional memory
 * [FPTree: A Hybrid SCM-DRAM Persistent and Concurrency B-Tree for Storage Class Memory](https://wwwdb.inf.tu-dresden.de/misc/papers/2016/Oukid_FPTree.pdf)
   * Presentor : [Chi Zhang], [Siyu Liu]
 
-### W10：形式化验证
+### W11：形式化验证
