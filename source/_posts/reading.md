@@ -88,7 +88,7 @@ post_meta: false
 
 ### W7：GPU
 
-* What's the best paper for GPU/CUDA?
+* [gVirt](https://01.org/sites/default/files/documentation/gvirt-final-2_0.pdf) (This may not be the best paper, but it's the first paper in full GPU virtualization. If anyone has a better idea, please overwrite this one.)
 
 ### W8：网络
 * Infiniswap?
