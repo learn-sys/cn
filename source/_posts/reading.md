@@ -62,39 +62,39 @@ post_meta: false
   * Presenter: ZeJiong Dong & Ruilin Wen
 * [Memory Resource Management in VMware ESX Server](https://www.usenix.org/legacy/event/osdi02/tech/full_papers/waldspurger/waldspurger.pdf)
 
-### W3：FPGA上的系统支持、分布式系统（一）
+### W3：FPGA上的系统支持、从0开始写系统全家桶
 
 * [Catapult](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/Catapult_ISCA_2014.pdf), [Enzian](http://enzian.systems/), [AmorphOS](https://www.usenix.org/system/files/osdi18-khawaja.pdf), [Optimus](https://dl.acm.org/doi/abs/10.1145/3373376.3378482), and [Coyote](https://www.usenix.org/system/files/osdi20-korolija.pdf) (a bunch of papers in a bundle)
   * Presenter: [Jiacheng Ma](https://jcma/me)
+* 在自己写的CPU上用自己写的编译器编译自己写的操作系统并在上面跑自己写的程序
+  * [Yaotian Feng](https://github.com/codetector1374)
+
+### W4：网络、分布式系统（一）
+* [Learning in situ: a randomized experiment in video streaming](https://www.usenix.org/conference/nsdi20/presentation/yan)
+  * Presenter: Yuanli Wang @pentium3
 * [The Google File System](https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
   * Presenter: Xiangyun Ding
 
-### W4：分布式系统（二）
-
+### W5：分布式系统（二）
 * [MapReduce: Simplified Data Processing on Large Clusters](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
   * Presenter: Wenyan Li
 * [Time, Clocks, and the Ordering of Events in a Distributed System](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)
   * Presenter: Junchen Li
   * Presenter: Yi Zhang
 
-### W5：程序分析、Debugging
+### W6：程序分析、Debugging
 
 * [KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs](http://www.doc.ic.ac.uk/~cristic/papers/klee-osdi-08.pdf) (Is this the best paper of symbolic execution?)
 * [ReVirt: enabling intrusion analysis through virtual-machine logging and replay](https://people.eecs.berkeley.edu/~kubitron/courses/cs262a-F14/handouts/papers/dunlap02.pdf)
 
-### W6：安全和隐私
+### W7：安全和隐私
 
 * [Meltdown](https://meltdownattack.com/meltdown.pdf) and [Specture](https://spectreattack.com/spectre.pdf) (two papers in a pack)
 * [TaintDroid: an information-flow tracking system for realtime privacy monitoring on smartphones](https://www.usenix.org/legacy/events/osdi10/tech/full_papers/Enck.pdf)
 
-### W7：GPU
+### W8：GPU
 
 * [gVirt](https://01.org/sites/default/files/documentation/gvirt-final-2_0.pdf) (This may not be the best paper, but it's the first paper in full GPU virtualization. If anyone has a better idea, please overwrite this one.)
-
-### W8：网络
-* Infiniswap?
-* What's the best networking paper to read? Find one from Facebook?
-* [Learning in situ: a randomized experiment in video streaming](https://www.usenix.org/conference/nsdi20/presentation/yan)    Presenter: Yuanli Wang @pentium3
 
 ### W9：机器学习
 * [TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf)
