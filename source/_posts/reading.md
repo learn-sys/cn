@@ -71,6 +71,7 @@ post_meta: false
   * Presenter: Wenyan Li
 * [Time, Clocks, and the Ordering of Events in a Distributed System](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)
   * Presenter: Junchen Li
+  * Presenter: Yi Zhang
 
 ### W4：程序分析、Debugging
 
