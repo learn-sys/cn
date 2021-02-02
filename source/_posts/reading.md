@@ -107,6 +107,6 @@ post_meta: false
 ### W10：新内存
 * transactional memory
 * [FPTree: A Hybrid SCM-DRAM Persistent and Concurrency B-Tree for Storage Class Memory](https://wwwdb.inf.tu-dresden.de/misc/papers/2016/Oukid_FPTree.pdf)
-  * Presentor : [Chi Zhang], [Siyu Liu]
+  * Presentor : [Chi Zhang](https://github.com/skyzh), [Siyu Liu](https://github.com/liusy58)
 
 ### W11：形式化验证
