@@ -1,0 +1,40 @@
+name: Hexo
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v1
+      - name: Use Node.js ${{ matrix.node_version }}
+        uses: actions/setup-node@v1
+        with:
+          node_version: ${{ matrix.node_version }}
+      - name: Configuration environment
+        env:
+          DEPLOY_KEY: ${{ secrets.HEXO_CI_PRIVATE }}
+        run: |
+          mkdir -p ~/.ssh/
+          echo "$DEPLOY_KEY" | tr -d '\r' > ~/.ssh/id_rsa
+          chmod 600 ~/.ssh/id_rsa
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Update themes
+        run: |
+          git submodule init
+          git submodule update
+      - name: Install dependencies
+        run: |
+          npm i -g hexo-cli
+          npm i
+      - name: Generate hexo
+        run: |
+          hexo generate
+      - name: Deploy hexo
+        run: |
+          hexo deploy
