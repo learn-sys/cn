@@ -109,5 +109,7 @@ post_meta: false
 * transactional memory
 * [FPTree: A Hybrid SCM-DRAM Persistent and Concurrency B-Tree for Storage Class Memory](https://wwwdb.inf.tu-dresden.de/misc/papers/2016/Oukid_FPTree.pdf)
   * Presentor : [Chi Zhang](https://github.com/skyzh), [Siyu Liu](https://github.com/liusy58)
+* [Spitfire: A Three-Tier Buffer Manager for Volatile and Non-Volatile Memory](https://zxjcarrot.github.io/publication/spitfire/spitfire.pdf)
+  * Presentor : [Xinjing Zhou](https://zxjcarrot.github.io/)
 
 ### W11：形式化验证
