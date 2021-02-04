@@ -53,6 +53,7 @@ post_meta: false
 
 * Video: [THU AOS P7 - P11](https://www.bilibili.com/video/BV1pC4y1x7iw?p=7)
 * [The Multikernel: A new OS architecture for scalable multicore systems](https://people.inf.ethz.ch/troscoe/pubs/sosp09-barrelfish.pdf)
+  * Presenter: [Zhi Guo](https://github.com/iaGuoZhi)
 * [LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation](https://www.usenix.org/system/files/osdi18-shan.pdf) (Is this paper too new? Do we need a more classic one?)
 
 ### W2：虚拟化
