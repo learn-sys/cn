@@ -116,3 +116,7 @@ post_meta: false
   * Presentor : [Xinjing Zhou](https://zxjcarrot.github.io/)
 
 ### W11：形式化验证
+
+### W12: Log Structured Merge (LSM) Tree
+* [Real-Time LSM-Trees for HTAP Workloads](https://arxiv.org/pdf/2101.06801.pdf)
+  * Presentor: [Bowen Xiao](https://github.com/BowenXiao1999)
