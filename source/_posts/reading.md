@@ -100,6 +100,9 @@ post_meta: false
 
 * [gVirt](https://01.org/sites/default/files/documentation/gvirt-final-2_0.pdf) (This may not be the best paper, but it's the first paper in full GPU virtualization. If anyone has a better idea, please overwrite this one.)
 
+* ①GPU & PIM(paper TBD) ②GPU memory optimization during DNN training.
+  * Presenters: Siling Yang and Ping Chen
+
 ### W9：机器学习
 * [TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf)
   * Presenter: [Jinming Hu](https://conanhujinming.github.io/)
