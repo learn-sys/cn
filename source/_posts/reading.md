@@ -105,6 +105,8 @@ post_meta: false
   * Presenter: [Simei He]
 * [TVM: An Automated End-to-End Optimizing Compiler for Deep Learning](https://arxiv.org/pdf/1802.04799.pdf)
   * Presenter: [Cong Ding](https://tson1111.github.io/)
+* [Retiarii: A Deep Learning Exploratory-Training Framework](https://www.usenix.org/system/files/osdi20-zhang_quanlu.pdf)
+  * Presenter: [Xiaohu Tang](https://github.com/tigert1998)
 
 ### W10：新内存
 * transactional memory
