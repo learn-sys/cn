@@ -77,7 +77,7 @@ post_meta: false
 * [Learning in situ: a randomized experiment in video streaming](https://www.usenix.org/conference/nsdi20/presentation/yan)
   * Presenter: Yuanli Wang @pentium3
 * [The Google File System](https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
-  * Presenter: Xiangyun Ding
+  * Presenter: Xiangyun Ding, Jing Li
 
 ### W5：分布式系统（二）
 * [MapReduce: Simplified Data Processing on Large Clusters](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
