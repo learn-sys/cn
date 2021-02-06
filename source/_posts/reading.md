@@ -93,7 +93,7 @@ post_meta: false
 
 ### W7：安全和隐私
 
-* [Meltdown](https://meltdownattack.com/meltdown.pdf) and [Specture](https://spectreattack.com/spectre.pdf) (two papers in a pack)
+* [Meltdown](https://meltdownattack.com/meltdown.pdf) and [Spectre](https://spectreattack.com/spectre.pdf) (two papers in a pack)
 * [TaintDroid: an information-flow tracking system for realtime privacy monitoring on smartphones](https://www.usenix.org/legacy/events/osdi10/tech/full_papers/Enck.pdf)
 
 ### W8：GPU
