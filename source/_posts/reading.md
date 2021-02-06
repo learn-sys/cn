@@ -89,6 +89,7 @@ post_meta: false
 ### W6：程序分析、Debugging
 
 * [KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs](http://www.doc.ic.ac.uk/~cristic/papers/klee-osdi-08.pdf) (Is this the best paper of symbolic execution?)
+  * Presenter: Yongkang Meng
 * [ReVirt: enabling intrusion analysis through virtual-machine logging and replay](https://people.eecs.berkeley.edu/~kubitron/courses/cs262a-F14/handouts/papers/dunlap02.pdf)
 
 ### W7：安全和隐私
