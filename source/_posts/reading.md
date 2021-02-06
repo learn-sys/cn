@@ -48,7 +48,7 @@ post_meta: false
 ### W0：破冰
 
 * 自我介绍、分组、游戏规则
-* 时间：北京时间2021年2月6日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)。
+* 时间：北京时间2021年2月6日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)，[录播地址](https://www.bilibili.com/video/BV1Ty4y1Y7gB/)。
 
 ### W1：操作系统
 
