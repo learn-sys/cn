@@ -82,6 +82,7 @@ post_meta: false
 ### W5：分布式系统（二）
 * [MapReduce: Simplified Data Processing on Large Clusters](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
   * Presenter: Wenyan Li
+  * Presenter: Hao Feng
 * [Time, Clocks, and the Ordering of Events in a Distributed System](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)
   * Presenter: Junchen Li
   * Presenter: Yi Zhang
