@@ -39,5 +39,6 @@ jobs:
         run: |
           hexo generate
       - name: Deploy hexo
+        if: ${{ github.event_name != 'pull_request' }}
         run: |
           hexo deploy
