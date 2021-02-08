@@ -84,7 +84,7 @@ post_meta: false
   * Presenter: Wenyan Li
   * Presenter: Hao Feng
 * [Time, Clocks, and the Ordering of Events in a Distributed System](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)
-  * Presenter: Junchen Li
+  * Presenter: [Junchen Li](https://github.com/lijunchen)
   * Presenter: Yi Zhang
 
 ### W6：程序分析、Debugging
