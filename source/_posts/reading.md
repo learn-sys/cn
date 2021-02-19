@@ -57,6 +57,7 @@ post_meta: false
   * Presenter: [Zhi Guo](https://github.com/iaGuoZhi)
   * Presenter: [Mingyan Wang](http://mywong.cn)
 * [LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation](https://www.usenix.org/system/files/osdi18-shan.pdf) (Is this paper too new? Do we need a more classic one?)
+* 时间：北京时间2021年2月21日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117) 。
 
 ### W2：虚拟化
 
@@ -108,7 +109,7 @@ post_meta: false
 ### W9：机器学习
 * [TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf)
   * Presenter: [Jinming Hu](https://conanhujinming.github.io/)
-  * Presenter: [Simei He]
+  * Presenter: Simei He
 * [TVM: An Automated End-to-End Optimizing Compiler for Deep Learning](https://arxiv.org/pdf/1802.04799.pdf)
   * Presenter: [Cong Ding](https://tson1111.github.io/)
 * [Retiarii: A Deep Learning Exploratory-Training Framework](https://www.usenix.org/system/files/osdi20-zhang_quanlu.pdf)
