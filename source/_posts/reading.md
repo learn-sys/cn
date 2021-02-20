@@ -13,7 +13,7 @@ post_meta: false
 
 活动将每周进行一次，每次两小时，每小时一组，每组两人。其中包括20分钟的paper presentation，20分钟的Q&A，以及20分钟的分组讨论（6人一组，presenter和主持人会随机乱逛）。在presentation之前，presenter需要准备以CC BY-NC-SA 4.0开源的slides，并提前上传到本页面，原则上不可以使用他人的slides，但允许使用发表在论文中、或由论文作者提供的图片、表格和代码；presentation的时间分配每人至少五分钟； presentation鼓励使用中文，但不强制。在Q&A环节，除提问者外，鼓励所有人提出问题或者评论，可以是针对论文的，也可以是针对presenter的slides的；若无人主动提问，主持人会钦定提问者。
 
-在每周的活动前，所有组员应自学该周活动对应的参考资料。参考资料包括论文（至少要大概了解）和视频（约每周一小时）。目前，视频主要来自清华大学的高级操作系统（[课程主页](http://os.cs.tsinghua.edu.cn/oscourse/AOS2020)/[B站](https://www.bilibili.com/video/BV1pC4y1x7iw?p=1)），感谢陈渝老师提供这些视频。
+在每周的活动前，所有组员应自学该周活动对应的参考资料。参考资料包括论文（至少要大概了解）和视频（约每周一小时）。目前，视频有来自清华大学的高级操作系统（[课程主页](http://os.cs.tsinghua.edu.cn/oscourse/AOS2020)/[B站](https://www.bilibili.com/video/BV1pC4y1x7iw?p=1)），感谢陈渝老师提供这些视频；上海交通大学的操作系统课程（[课程主页](https://ipads.se.sjtu.edu.cn/courses/os)/[B站 MOOC版](https://www.bilibili.com/video/BV18y4y1i73U?p=1)），感谢IPADS实验室的老师们提供这些视频。
 
 长期不来的同学将被移出小组。
 
@@ -52,11 +52,12 @@ post_meta: false
 
 ### W1：操作系统
 
-* Video: [THU AOS P7 - P11](https://www.bilibili.com/video/BV1pC4y1x7iw?p=7)
+* Video: [THU AOS P7 - P11](https://www.bilibili.com/video/BV1pC4y1x7iw?p=7)；[论文作者在SOSP2009上的talk](https://www.youtube.com/watch?v=fZt1LILFyXY)
 * [The Multikernel: A new OS architecture for scalable multicore systems](https://people.inf.ethz.ch/troscoe/pubs/sosp09-barrelfish.pdf)
   * Presenter: [Zhi Guo](https://github.com/iaGuoZhi)
   * Presenter: [Mingyan Wang](http://mywong.cn)
   * [Slide](https://github.com/iaGuoZhi/PRESENTATION/blob/master/week1-multikernel.pptx)
+* [LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation](https://www.usenix.org/system/files/osdi18-shan.pdf) (Is this paper too new? Do we need a more classic one?)
 * 时间：北京时间2021年2月21日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117) 。
 
 ### W2：虚拟化
