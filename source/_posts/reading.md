@@ -56,6 +56,7 @@ post_meta: false
 * [The Multikernel: A new OS architecture for scalable multicore systems](https://people.inf.ethz.ch/troscoe/pubs/sosp09-barrelfish.pdf)
   * Presenter: [Zhi Guo](https://github.com/iaGuoZhi)
   * Presenter: [Mingyan Wang](http://mywong.cn)
+  * [Slide](https://github.com/iaGuoZhi/PRESENTATION/blob/master/week1-multikernel.pptx)
 * [LegoOS: A Disseminated, Distributed OS for Hardware Resource Disaggregation](https://www.usenix.org/system/files/osdi18-shan.pdf) (Is this paper too new? Do we need a more classic one?)
 * 时间：北京时间2021年2月21日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117) 。
 
