@@ -33,7 +33,7 @@ post_meta: false
 
 ## 报名
 
-请通过以下链接报名：https://forms.gle/YWzrcGSW5q6EWPXy6
+报名已结束。请想给lecture、talk、office hour的老师和同学提交 [Pull Requests](https://github.com/learn-os-cn/learn-os-cn.github.io/pulls)。
 
 ## 召唤志愿者/Lecturer
 
