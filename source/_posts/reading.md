@@ -57,7 +57,7 @@ post_meta: false
   * Presenter: [Zhi Guo](https://github.com/iaGuoZhi)
   * Presenter: [Mingyan Wang](http://mywong.cn)
   * [Slide](https://github.com/iaGuoZhi/PRESENTATION/blob/master/week1-multikernel.pptx)
-* 时间：北京时间2021年2月21日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117) 。
+* 时间：北京时间2021年2月21日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)，[录播地址](https://www.bilibili.com/video/BV1PU4y1s741/)。
 
 ### W2：虚拟化
 
