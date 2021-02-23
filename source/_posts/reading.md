@@ -62,8 +62,12 @@ post_meta: false
 ### W2：虚拟化
 
 * Video: [THU AOS P12 - P21](https://www.bilibili.com/video/BV1pC4y1x7iw?p=12)；[IPADS MOS P70 - P87](https://www.bilibili.com/video/BV18y4y1i73U?p=70)
-* [Xen and the Art of Virtualization](https://www.cs.yale.edu/homes/yu-minlan/teach/csci599-fall12/papers/xen.pdf)；[kvm: the Linux Virtual Machine Monitor](https://www.kernel.org/doc/ols/2007/ols2007v1-pages-225-230.pdf)
-  * Presenter: ZeJiong Dong & Ruilin Wen
+* Paper List - Presenter: ZeJiong Dong & Ruilin Wen
+  * [Xen and the Art of Virtualization](https://www.cs.yale.edu/homes/yu-minlan/teach/csci599-fall12/papers/xen.pdf)
+  * [My VM is Lighter (and Safer) than your Container](https://dl.acm.org/doi/10.1145/3132747.3132763) (Xen架构的改进，在[THU AOS P12 - P21](https://www.bilibili.com/video/BV1pC4y1x7iw?p=12)课程中已经有讲述)
+  * [kvm: the Linux Virtual Machine Monitor](https://www.kernel.org/doc/ols/2007/ols2007v1-pages-225-230.pdf), [KVM/ARM: The Design and Implementation of the Linux ARM Hypervisor](https://www.cs.columbia.edu/~nieh/pubs/asplos2014_kvmarm.pdf) (KVM的概述和在ARM下的实现)
+  * [Dune: Safe User-level Access to Privileged CPU Features](https://www.usenix.org/system/files/conference/osdi12/osdi12-final-117.pdf) （利用Intel VT-x虚拟化技术提供进程的抽象,在[THU AOS P12 - P21](https://www.bilibili.com/video/BV1pC4y1x7iw?p=12)课程中已经有讲述）
+  * [Arrakis: The Operating System is the Control Plane](https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-peter_simon.pdf) (在硬件提供完善的虚拟化支持下的OS设计)
 * [Memory Resource Management in VMware ESX Server](https://www.usenix.org/legacy/event/osdi02/tech/full_papers/waldspurger/waldspurger.pdf)
   * Presenter: Jin Zhang
 
