@@ -39,6 +39,5 @@ CS公开课学习群：643874182，欢迎找不到组织的同学来这里一起
 
 欢迎科研狗来打广告招人。
 
-## 新鲜事，简单报
-
-* 2020/09/08 - 6.S081交流群成立
+## 日历
+<iframe src="https://calendar.google.com/calendar/embed?src=c_3g7ua8pt70v0h40ae6g9jcs6sk%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
