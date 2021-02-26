@@ -73,8 +73,9 @@ post_meta: false
 
 ### W3：FPGA上的系统支持、从0开始写系统全家桶
 
-* [Catapult](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/Catapult_ISCA_2014.pdf), [Enzian](http://enzian.systems/), [AmorphOS](https://www.usenix.org/system/files/osdi18-khawaja.pdf), [Optimus](https://dl.acm.org/doi/abs/10.1145/3373376.3378482), and [Coyote](https://www.usenix.org/system/files/osdi20-korolija.pdf) (a bunch of papers in a bundle)
+* [Catapult](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/Catapult_ISCA_2014.pdf), [Enzian](http://enzian.systems/), [AmorphOS](https://www.usenix.org/system/files/osdi18-khawaja.pdf), [Optimus](https://dl.acm.org/doi/abs/10.1145/3373376.3378482), and [Coyote](https://www.usenix.org/system/files/osdi20-korolija.pdf)
   * Presenter: [Jiacheng Ma](https://jcma.me)
+  * Papers are for reference only; you are not required to read them before the event.
 * 在自己写的CPU上用自己写的编译器编译自己写的操作系统并在上面跑自己写的程序
   * Presenter: [Yaotian Feng](https://github.com/codetector1374)
 
