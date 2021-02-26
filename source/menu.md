@@ -6,6 +6,7 @@
 * [6.824](/cn/6824)
 * [6.S081/6.828](/cn/6s081)
 * [CS144](/cn/cs144)
+* [Office Hours](/cn/officehour)
 * [论文阅读小组](/cn/reading)
 * [面基](/cn/meet)
 
