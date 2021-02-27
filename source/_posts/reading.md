@@ -71,7 +71,9 @@ post_meta: false
   * [W2 Slide Part1](https://github.com/ZENOTME/PRESENTATION/blob/master/week2-part1.pdf) 
   * [W2 Slide Part2](https://github.com/ZENOTME/PRESENTATION/blob/master/week2-part2.pdf) 
 * [Memory Resource Management in VMware ESX Server](https://www.usenix.org/legacy/event/osdi02/tech/full_papers/waldspurger/waldspurger.pdf)
+* [Live Migration of Virtual Machines](https://www.usenix.org/legacy/event/nsdi05/tech/full_papers/clark/clark.pdf)
   * Presenter: Jin Zhang
+  * [Slide](https://github.com/learn-sys/cn/tree/master/source/_posts/slides/week2-2.pdf)
 
 ### W3：FPGA上的系统支持、从0开始写系统全家桶
 
