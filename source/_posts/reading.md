@@ -74,6 +74,7 @@ post_meta: false
 * [Live Migration of Virtual Machines](https://www.usenix.org/legacy/event/nsdi05/tech/full_papers/clark/clark.pdf)
   * Presenter: Jin Zhang
   * [Slide](https://github.com/learn-sys/cn/tree/master/source/_posts/slides/week2-2.pdf)
+ * 时间：北京时间2021年2月27日上午9点到11点，[直播地址](http://live.bilibili.com/21829117)，[录播地址](https://www.bilibili.com/video/BV1eK4y1J7Ym/)。
 
 ### W3：FPGA上的系统支持、从0开始写系统全家桶
 
