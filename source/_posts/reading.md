@@ -73,7 +73,7 @@ post_meta: false
 * [Memory Resource Management in VMware ESX Server](https://www.usenix.org/legacy/event/osdi02/tech/full_papers/waldspurger/waldspurger.pdf)
 * [Live Migration of Virtual Machines](https://www.usenix.org/legacy/event/nsdi05/tech/full_papers/clark/clark.pdf)
   * Presenter: Jin Zhang
-  * [Slide](https://github.com/learn-sys/cn/tree/master/source/_posts/slides/week2-2.pdf)
+  * [Slide](/cn/slides/r0/week2-2.pdf)
  * 时间：北京时间2021年2月27日上午9点到11点，[直播地址](http://live.bilibili.com/21829117)，[录播地址](https://www.bilibili.com/video/BV1eK4y1J7Ym/)。
 
 ### W3：FPGA上的系统支持、从0开始写系统全家桶
@@ -81,6 +81,7 @@ post_meta: false
 * [Catapult](https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/Catapult_ISCA_2014.pdf), [Enzian](http://enzian.systems/), [AmorphOS](https://www.usenix.org/system/files/osdi18-khawaja.pdf), [Optimus](https://dl.acm.org/doi/abs/10.1145/3373376.3378482), and [Coyote](https://www.usenix.org/system/files/osdi20-korolija.pdf)
   * Presenter: [Jiacheng Ma](https://jcma.me)
   * Papers are for reference only; you are not required to read them before the event.
+  * [Slide](/cn/slides/r0/week3-1.pdf)
 * 在自己写的CPU上用自己写的编译器编译自己写的操作系统并在上面跑自己写的程序
   * Presenter: [Yaotian Feng](https://github.com/codetector1374)
 * 时间：北京时间2021年3月6日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)
