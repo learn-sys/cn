@@ -85,7 +85,7 @@ post_meta: false
 * 在自己写的CPU上用自己写的编译器编译自己写的操作系统并在上面跑自己写的程序
   * Presenter: [Yaotian Feng](https://github.com/codetector1374)
   * [Slide](/cn/slides/r0/week3-2.pdf)
-* 时间：北京时间2021年3月6日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)
+* 时间：北京时间2021年3月6日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)，[录播地址](https://www.bilibili.com/video/BV1WZ4y1P7Yr/)
 
 ### W4：网络、分布式系统（一）
 * [Learning in situ: a randomized experiment in video streaming](https://www.usenix.org/conference/nsdi20/presentation/yan)
