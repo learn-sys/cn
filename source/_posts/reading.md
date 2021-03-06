@@ -137,9 +137,7 @@ post_meta: false
 
 ### W11：形式化验证
 
-### W12: Log Structured Merge (LSM) Tree
-* [Real-Time LSM-Trees for HTAP Workloads](https://arxiv.org/pdf/2101.06801.pdf)
-  * Presentor: [Bowen Xiao](https://github.com/BowenXiao1999)
+### W12
 
 ### W13: Serverless (?)
 * [SAND: Towards High-Performance Serverless Computing](https://www.usenix.org/system/files/conference/atc18/atc18-akkus.pdf)
