@@ -84,6 +84,7 @@ post_meta: false
   * [Slide](/cn/slides/r0/week3-1.pdf)
 * 在自己写的CPU上用自己写的编译器编译自己写的操作系统并在上面跑自己写的程序
   * Presenter: [Yaotian Feng](https://github.com/codetector1374)
+  * [Slide](/cn/slides/r0/week3-2.pdf)
 * 时间：北京时间2021年3月6日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)
 
 ### W4：网络、分布式系统（一）
