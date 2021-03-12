@@ -90,8 +90,10 @@ post_meta: false
 ### W4：网络、分布式系统（一）
 * [Learning in situ: a randomized experiment in video streaming](https://www.usenix.org/conference/nsdi20/presentation/yan)
   * Presenter: Yuanli Wang @pentium3
+  * [Slide](https://github.com/pentium3/mlsys_reading/files/5296409/situ.pptx)
 * [The Google File System](https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
   * Presenter: Xiangyun Ding, Jing Li
+* 时间：北京时间2021年3月13日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)
 
 ### W5：分布式系统（二）
 * [MapReduce: Simplified Data Processing on Large Clusters](https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf)
