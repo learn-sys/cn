@@ -93,6 +93,7 @@ post_meta: false
   * [Slide](https://github.com/pentium3/mlsys_reading/files/5296409/situ.pptx)
 * [The Google File System](https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf)
   * Presenter: Xiangyun Ding, Jing Li
+  * <a href="https://docs.google.com/presentation/d/1Cov2lkKuf90SisaDh7arrUuu6deVacpOJoLbIYEOgO0/edit?usp=sharing">slide</a>
 * 时间：北京时间2021年3月13日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)
 
 ### W5：分布式系统（二）
