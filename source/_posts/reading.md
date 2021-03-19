@@ -104,6 +104,8 @@ post_meta: false
 * [Time, Clocks, and the Ordering of Events in a Distributed System](https://lamport.azurewebsites.net/pubs/time-clocks.pdf)
   * Presenter: [Junchen Li](https://github.com/lijunchen)
   * Presenter: Yi Zhang
+  * [Lamport's comment on this paper](https://lamport.azurewebsites.net/pubs/pubs.html#time-clocks)
+  * [Slide](/cn/slides/r0/week5-2.pdf)
 * 时间：北京时间2021年3月20日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)
 
 ### W6：程序分析、Debugging
