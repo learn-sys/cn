@@ -130,6 +130,7 @@ post_meta: false
   * Presenters: Siling Yang and Ping Chen
 
 ### W9：机器学习（一）
+* Host: Zhiqiang
 * [TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf)
   * Presenter: [Jinming Hu](https://conanhujinming.github.io/)
   * Presenter: Simei He
@@ -137,7 +138,6 @@ post_meta: false
   * Presenter: [Cong Ding](https://tson1111.github.io/), rainie
 
 ### W10：机器学习（二）
-* Host: Zhiqiang
 * [Retiarii: A Deep Learning Exploratory-Training Framework](https://www.usenix.org/system/files/osdi20-zhang_quanlu.pdf)
   * Presenter: [Xiaohu Tang](https://github.com/tigert1998), Comzyh
 * [Ansor : Generating High-Performance Tensor Programs for Deep Learning](https://arxiv.org/abs/2006.06762)
