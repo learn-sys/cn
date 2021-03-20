@@ -125,7 +125,7 @@ post_meta: false
 ### W8：GPU
 
 * [gVirt](https://01.org/sites/default/files/documentation/gvirt-final-2_0.pdf) (This may not be the best paper, but it's the first paper in full GPU virtualization. If anyone has a better idea, please overwrite this one.)
-  * Presenter: Xiangfeng Zhu, Zhiqiang
+  * Presenter: Xiangfeng Zhu
 * ①GPU & PIM(paper TBD) ②GPU memory optimization during DNN training.
   * Presenters: Siling Yang and Ping Chen
 
@@ -137,6 +137,7 @@ post_meta: false
   * Presenter: [Cong Ding](https://tson1111.github.io/), rainie
 
 ### W10：机器学习（二）
+* Host: Zhiqiang
 * [Retiarii: A Deep Learning Exploratory-Training Framework](https://www.usenix.org/system/files/osdi20-zhang_quanlu.pdf)
   * Presenter: [Xiaohu Tang](https://github.com/tigert1998), Comzyh
 * [Ansor : Generating High-Performance Tensor Programs for Deep Learning](https://arxiv.org/abs/2006.06762)
