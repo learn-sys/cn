@@ -129,26 +129,30 @@ post_meta: false
 * ①GPU & PIM(paper TBD) ②GPU memory optimization during DNN training.
   * Presenters: Siling Yang and Ping Chen
 
-### W9：机器学习
+### W9：机器学习（一）
 * [TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf)
   * Presenter: [Jinming Hu](https://conanhujinming.github.io/)
   * Presenter: Simei He
 * [TVM: An Automated End-to-End Optimizing Compiler for Deep Learning](https://arxiv.org/pdf/1802.04799.pdf)
   * Presenter: [Cong Ding](https://tson1111.github.io/), rainie
+
+### W10：机器学习（二）
 * [Retiarii: A Deep Learning Exploratory-Training Framework](https://www.usenix.org/system/files/osdi20-zhang_quanlu.pdf)
   * Presenter: [Xiaohu Tang](https://github.com/tigert1998), Comzyh
+* [Ansor : Generating High-Performance Tensor Programs for Deep Learning](https://arxiv.org/abs/2006.06762)
+  * Presenter: Yuhan Liu, weihai 
 
-### W10：新内存
+### W11：新内存
 * transactional memory
 * [FPTree: A Hybrid SCM-DRAM Persistent and Concurrency B-Tree for Storage Class Memory](https://wwwdb.inf.tu-dresden.de/misc/papers/2016/Oukid_FPTree.pdf)
   * Presentor : [Chi Zhang](https://github.com/skyzh), [Siyu Liu](https://github.com/liusy58)
 * [Spitfire: A Three-Tier Buffer Manager for Volatile and Non-Volatile Memory](https://zxjcarrot.github.io/publication/spitfire/spitfire.pdf)
   * Presentor : [Xinjing Zhou](https://zxjcarrot.github.io/)
 
-### W11：形式化验证
+### W12：形式化验证
 
-### W12
+### W13
 
-### W13: Serverless (?)
+### W14: Serverless (?)
 * [SAND: Towards High-Performance Serverless Computing](https://www.usenix.org/system/files/conference/atc18/atc18-akkus.pdf)
   * Presentor: Haoqi Zhuang
