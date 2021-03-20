@@ -120,12 +120,9 @@ post_meta: false
 * [Meltdown](https://meltdownattack.com/meltdown.pdf) and [Spectre](https://spectreattack.com/spectre.pdf) (two papers in a pack)
   * Presenter: MonKey Lee, baochen
 * [TaintDroid: an information-flow tracking system for realtime privacy monitoring on smartphones](https://www.usenix.org/legacy/events/osdi10/tech/full_papers/Enck.pdf)
-  * Presenter: lambda, Haivo
+  * Presenter: Xiangfeng Zhu, Haivo
 
 ### W8：GPU
-
-* [gVirt](https://01.org/sites/default/files/documentation/gvirt-final-2_0.pdf) (This may not be the best paper, but it's the first paper in full GPU virtualization. If anyone has a better idea, please overwrite this one.)
-  * Presenter: Xiangfeng Zhu
 * ①GPU & PIM(paper TBD) ②GPU memory optimization during DNN training.
   * Presenters: Siling Yang and Ping Chen
 
