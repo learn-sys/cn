@@ -113,7 +113,7 @@ post_meta: false
 * [KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs](http://www.doc.ic.ac.uk/~cristic/papers/klee-osdi-08.pdf) (Is this the best paper of symbolic execution?)
   * Presenter: Yongkang Meng, Weiqi Feng
 * [ReVirt: enabling intrusion analysis through virtual-machine logging and replay](https://people.eecs.berkeley.edu/~kubitron/courses/cs262a-F14/handouts/papers/dunlap02.pdf)
-  * Presenter: 李茂新, 田原
+  * Presenter: 李茂新
 
 ### W7：安全和隐私
 
