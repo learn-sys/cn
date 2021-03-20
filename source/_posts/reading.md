@@ -111,18 +111,21 @@ post_meta: false
 ### W6：程序分析、Debugging
 
 * [KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs](http://www.doc.ic.ac.uk/~cristic/papers/klee-osdi-08.pdf) (Is this the best paper of symbolic execution?)
-  * Presenter: Yongkang Meng
+  * Presenter: Yongkang Meng, Weiqi Feng
 * [ReVirt: enabling intrusion analysis through virtual-machine logging and replay](https://people.eecs.berkeley.edu/~kubitron/courses/cs262a-F14/handouts/papers/dunlap02.pdf)
+  * Presenter: 李茂新, 田原
 
 ### W7：安全和隐私
 
 * [Meltdown](https://meltdownattack.com/meltdown.pdf) and [Spectre](https://spectreattack.com/spectre.pdf) (two papers in a pack)
+  * Presenter: 刘宇 (Yu Liu), MonKey Lee
 * [TaintDroid: an information-flow tracking system for realtime privacy monitoring on smartphones](https://www.usenix.org/legacy/events/osdi10/tech/full_papers/Enck.pdf)
+  * Presenter: lambda, Haivo
 
 ### W8：GPU
 
 * [gVirt](https://01.org/sites/default/files/documentation/gvirt-final-2_0.pdf) (This may not be the best paper, but it's the first paper in full GPU virtualization. If anyone has a better idea, please overwrite this one.)
-
+  * Presenter: Xiangfeng Zhu, Zhiqiang
 * ①GPU & PIM(paper TBD) ②GPU memory optimization during DNN training.
   * Presenters: Siling Yang and Ping Chen
 
@@ -131,9 +134,9 @@ post_meta: false
   * Presenter: [Jinming Hu](https://conanhujinming.github.io/)
   * Presenter: Simei He
 * [TVM: An Automated End-to-End Optimizing Compiler for Deep Learning](https://arxiv.org/pdf/1802.04799.pdf)
-  * Presenter: [Cong Ding](https://tson1111.github.io/)
+  * Presenter: [Cong Ding](https://tson1111.github.io/), rainie
 * [Retiarii: A Deep Learning Exploratory-Training Framework](https://www.usenix.org/system/files/osdi20-zhang_quanlu.pdf)
-  * Presenter: [Xiaohu Tang](https://github.com/tigert1998)
+  * Presenter: [Xiaohu Tang](https://github.com/tigert1998), Comzyh
 
 ### W10：新内存
 * transactional memory
