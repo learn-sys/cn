@@ -111,7 +111,7 @@ post_meta: false
 ### W6：程序分析、Debugging
 
 * [KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs](http://www.doc.ic.ac.uk/~cristic/papers/klee-osdi-08.pdf) (Is this the best paper of symbolic execution?)
-  * Presenter: Yongkang Meng, Weiqi Feng
+  * Presenter: Yongkang Meng
 * [ReVirt: enabling intrusion analysis through virtual-machine logging and replay](https://people.eecs.berkeley.edu/~kubitron/courses/cs262a-F14/handouts/papers/dunlap02.pdf)
   * Presenter: 李茂新
 
@@ -155,4 +155,4 @@ post_meta: false
 
 ### W14: Serverless (?)
 * [SAND: Towards High-Performance Serverless Computing](https://www.usenix.org/system/files/conference/atc18/atc18-akkus.pdf)
-  * Presentor: Haoqi Zhuang
+  * Presentor: Haoqi Zhuang, Weiqi Feng
