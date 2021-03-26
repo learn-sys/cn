@@ -112,6 +112,7 @@ post_meta: false
 
 * [KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs](http://www.doc.ic.ac.uk/~cristic/papers/klee-osdi-08.pdf) (Is this the best paper of symbolic execution?)
   * Presenter: Yongkang Meng
+* 时间：北京时间2021年3月27日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)
 
 ### W7：安全和隐私
 
