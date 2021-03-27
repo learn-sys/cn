@@ -115,7 +115,7 @@ post_meta: false
 * 时间：北京时间2021年3月27日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)，[录播地址](https://www.bilibili.com/video/BV1Ty4y1b7iq/)
 
 ### W7：安全和隐私
-
+* Host: Yu Liu
 * [Meltdown](https://meltdownattack.com/meltdown.pdf) and [Spectre](https://spectreattack.com/spectre.pdf) (two papers in a pack)
   * Presenter: MonKey Lee
 * [TaintDroid: an information-flow tracking system for realtime privacy monitoring on smartphones](https://www.usenix.org/legacy/events/osdi10/tech/full_papers/Enck.pdf)
