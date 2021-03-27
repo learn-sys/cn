@@ -106,13 +106,13 @@ post_meta: false
   * Presenter: Yi Zhang
   * [Lamport's comment on this paper](https://lamport.azurewebsites.net/pubs/pubs.html#time-clocks)
   * [Slide](/cn/slides/r0/week5-2.pdf)
-* 时间：北京时间2021年3月20日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)
+* 时间：北京时间2021年3月20日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)，[录播地址](https://www.bilibili.com/video/BV1y54y187Tn/)
 
 ### W6：程序分析、Debugging
 
 * [KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs](http://www.doc.ic.ac.uk/~cristic/papers/klee-osdi-08.pdf) (Is this the best paper of symbolic execution?)
   * Presenter: Yongkang Meng
-* 时间：北京时间2021年3月27日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)
+* 时间：北京时间2021年3月27日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)，[录播地址](https://www.bilibili.com/video/BV1Ty4y1b7iq/)
 
 ### W7：安全和隐私
 
