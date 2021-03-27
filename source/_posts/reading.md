@@ -146,7 +146,7 @@ post_meta: false
 * [Spitfire: A Three-Tier Buffer Manager for Volatile and Non-Volatile Memory](https://zxjcarrot.github.io/publication/spitfire/spitfire.pdf)
   * Presentor : [Xinjing Zhou](https://zxjcarrot.github.io/)
 
-### W12：形式化验证
+### W12：计算机网络
 * [BBR Congestion-Based Congestion Control](https://dl.acm.org/doi/pdf/10.1145/3012426.3022184)
   * Presentor : Yonghui Zhang
 * [Data Center TCP (DCTCP)](https://pages.cs.wisc.edu/~remzi/Classes/739/Fall2015/Papers/dctcp-10.pdf)
