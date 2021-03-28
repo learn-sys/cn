@@ -117,7 +117,7 @@ post_meta: false
 ### W7：安全和隐私
 * Host: Yu Liu
 * [Meltdown](https://meltdownattack.com/meltdown.pdf) and [Spectre](https://spectreattack.com/spectre.pdf) (two papers in a pack)
-  * Presenter: MonKey Lee
+  * Presenter: MonKey Lee, Ruilin Wen
 * [TaintDroid: an information-flow tracking system for realtime privacy monitoring on smartphones](https://www.usenix.org/legacy/events/osdi10/tech/full_papers/Enck.pdf)
   * Presenter: Xiangfeng Zhu, Haivo
 
