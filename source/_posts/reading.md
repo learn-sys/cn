@@ -117,7 +117,8 @@ post_meta: false
 
 ### W7：安全和隐私
 * Host: Yu Liu
-* [Meltdown](https://meltdownattack.com/meltdown.pdf) and [Spectre](https://spectreattack.com/spectre.pdf) (two papers in a pack)
+* [Meltdown](https://meltdownattack.com/meltdown.pdf)
+* [Spectre](https://spectreattack.com/spectre.pdf) (TBD)
   * Presenter: MonKey Lee, Ruilin Wen
 * 时间：北京时间2021年4月10日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)
 
