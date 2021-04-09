@@ -119,8 +119,7 @@ post_meta: false
 * Host: Yu Liu
 * [Meltdown](https://meltdownattack.com/meltdown.pdf) and [Spectre](https://spectreattack.com/spectre.pdf) (two papers in a pack)
   * Presenter: MonKey Lee, Ruilin Wen
-* [TaintDroid: an information-flow tracking system for realtime privacy monitoring on smartphones](https://www.usenix.org/legacy/events/osdi10/tech/full_papers/Enck.pdf)
-  * Presenter: Xiangfeng Zhu, Haivo
+* 时间：北京时间2021年4月10日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)
 
 ### W8：GPU
 * ①GPU & PIM(paper TBD) ②GPU memory optimization during DNN training.
