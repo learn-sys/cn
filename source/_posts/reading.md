@@ -121,6 +121,7 @@ post_meta: false
 * [Spectre](https://spectreattack.com/spectre.pdf) (TBD)
   * Presenter: MonKey Lee, Ruilin Wen
 * 时间：北京时间2021年4月10日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)
+* [Slide](/cn/slides/r0/week7-1.pdf)
 
 ### W8：GPU
 * ①GPU & PIM(paper TBD) ②GPU memory optimization during DNN training.
