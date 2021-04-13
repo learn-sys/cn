@@ -123,9 +123,11 @@ post_meta: false
 * 时间：北京时间2021年4月10日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)
 * [Slide](/cn/slides/r0/week7-1.pdf)
 
-### W8：GPU
-* ①GPU & PIM(paper TBD) ②GPU memory optimization during DNN training.
-  * Presenters: Siling Yang and Ping Chen
+### W8：GPU & PIM（Processing in memory）
+* GPU memory optimization during DNN training.
+  * Presenters: Ping Chen
+* [ISAAC: a convolutional neural network accelerator with in-situ analog arithmetic in crossbars](https://dl.acm.org/doi/abs/10.1145/3007787.3001139)
+  * Presenters: Siling Yang
 
 ### W9：机器学习（一）
 * Host: Zhiqiang
