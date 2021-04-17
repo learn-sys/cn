@@ -126,8 +126,10 @@ post_meta: false
 ### W8：GPU & PIM（Processing in memory）
 * GPU memory optimization during DNN training.
   * Presenters: Ping Chen
+  * [Slide](/cn/slides/r0/week8-2.pdf)
 * [ISAAC: a convolutional neural network accelerator with in-situ analog arithmetic in crossbars](https://dl.acm.org/doi/abs/10.1145/3007787.3001139)
   * Presenters: Siling Yang
+  * [Slide](/cn/slides/r0/week8-2.pdf)
 
 ### W9：机器学习（一）
 * Host: Zhiqiang
