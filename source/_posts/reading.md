@@ -142,7 +142,7 @@ post_meta: false
 
 ### W10：机器学习（二）
 * [Retiarii: A Deep Learning Exploratory-Training Framework](https://www.usenix.org/system/files/osdi20-zhang_quanlu.pdf)
-  * Presenter: [Xiaohu Tang](https://github.com/tigert1998), Comzyh
+  * Presenter: [Xiaohu Tang](https://github.com/tigert1998)
 * [Ansor : Generating High-Performance Tensor Programs for Deep Learning](https://arxiv.org/abs/2006.06762)
   * Presenter: Yuhan Liu, weihai 
 
