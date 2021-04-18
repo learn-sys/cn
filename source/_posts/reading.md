@@ -120,7 +120,7 @@ post_meta: false
 * [Meltdown](https://meltdownattack.com/meltdown.pdf)
 * [Spectre](https://spectreattack.com/spectre.pdf) (TBD)
   * Presenter: MonKey Lee, Ruilin Wen
-* 时间：北京时间2021年4月10日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)
+* 时间：北京时间2021年4月10日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)，[录播地址](https://www.bilibili.com/video/BV1nb4y1D7ii/)
 * [Slide](/cn/slides/r0/week7-1.pdf)
 
 ### W8：GPU & PIM（Processing in memory）
@@ -130,6 +130,7 @@ post_meta: false
 * [ISAAC: a convolutional neural network accelerator with in-situ analog arithmetic in crossbars](https://dl.acm.org/doi/abs/10.1145/3007787.3001139)
   * Presenters: Siling Yang
   * [Slide](/cn/slides/r0/week8-2.pdf)
+  * 时间：北京时间2021年4月17日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)，[录播地址](https://www.bilibili.com/video/BV18V411J7uT/)
 
 ### W9：机器学习（一）
 * Host: Zhiqiang
