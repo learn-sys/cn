@@ -134,9 +134,10 @@ post_meta: false
 
 ### W9：机器学习（一）
 * Host: Zhiqiang
-* [TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems](http://download.tensorflow.org/paper/whitepaper2015.pdf)
+* TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems: [white paper](http://download.tensorflow.org/paper/whitepaper2015.pdf), [OSDI paper](https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf)
   * Presenter: [Jinming Hu](https://conanhujinming.github.io/)
   * Presenter: Simei He
+  * If you know nothing about AI&ML, [this video by Jeff Dean](https://www.youtube.com/watch?v=vzoe2G5g-w4) may be useful
 * [TVM: An Automated End-to-End Optimizing Compiler for Deep Learning](https://arxiv.org/pdf/1802.04799.pdf)
   * Presenter: [Cong Ding](https://tson1111.github.io/), rainie
 
