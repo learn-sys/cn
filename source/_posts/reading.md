@@ -138,6 +138,7 @@ post_meta: false
   * Presenter: [Jinming Hu](https://conanhujinming.github.io/)
   * Presenter: Simei He
   * If you know nothing about AI&ML, [this video by Jeff Dean](https://www.youtube.com/watch?v=vzoe2G5g-w4) may be useful
+  * This [official architecture overview](https://github.com/tensorflow/docs/blob/master/site/en/r1/guide/extend/architecture.md) is also helpful.
 * [TVM: An Automated End-to-End Optimizing Compiler for Deep Learning](https://arxiv.org/pdf/1802.04799.pdf)
   * Presenter: [Cong Ding](https://tson1111.github.io/), rainie
 
