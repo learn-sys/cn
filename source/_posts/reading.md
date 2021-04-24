@@ -139,6 +139,7 @@ post_meta: false
   * Presenter: Simei He
   * If you know nothing about AI&ML, [this video by Jeff Dean](https://www.youtube.com/watch?v=vzoe2G5g-w4) may be useful
   * This [official architecture overview](https://github.com/tensorflow/docs/blob/master/site/en/r1/guide/extend/architecture.md) is also helpful.
+  * [Slide](/cn/slides/r0/week9-1.pdf)
 * [TVM: An Automated End-to-End Optimizing Compiler for Deep Learning](https://arxiv.org/pdf/1802.04799.pdf)
   * Presenter: [Cong Ding](https://tson1111.github.io/), rainie
 * 时间：北京时间2021年4月24日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)
