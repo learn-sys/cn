@@ -148,7 +148,7 @@ post_meta: false
 * [Retiarii: A Deep Learning Exploratory-Training Framework](https://www.usenix.org/system/files/osdi20-zhang_quanlu.pdf)
   * Presenter: [Xiaohu Tang](https://github.com/tigert1998)
 * [Ansor : Generating High-Performance Tensor Programs for Deep Learning](https://arxiv.org/abs/2006.06762)
-  * Presenter: Yuhan Liu, weihai 
+  * Presenter: weihai 
 
 ### W11：新内存
 * transactional memory
