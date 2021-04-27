@@ -143,7 +143,7 @@ post_meta: false
 * [TVM: An Automated End-to-End Optimizing Compiler for Deep Learning](https://arxiv.org/pdf/1802.04799.pdf)
   * Presenter: [Cong Ding](https://tson1111.github.io/), rainie
   * [Slides](/cn/slides/r0/week9-2.pdf)
-* 时间：北京时间2021年4月24日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)
+* 时间：北京时间2021年4月24日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)，[录播地址](https://www.bilibili.com/video/BV1GA41157mJ/)
 
 ### W10：机器学习（二）
 * [Retiarii: A Deep Learning Exploratory-Training Framework](https://www.usenix.org/system/files/osdi20-zhang_quanlu.pdf)
