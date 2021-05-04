@@ -124,7 +124,7 @@ post_meta: false
 * [Slide](/cn/slides/r0/week7-1.pdf)
 
 ### W8：GPU & PIM（Processing in memory）
-* GPU memory optimization during DNN training.
+* Introduction to GPU and GPU programming
   * Presenters: Ping Chen
   * [Slide](/cn/slides/r0/week8-1.pdf)
 * [ISAAC: a convolutional neural network accelerator with in-situ analog arithmetic in crossbars](https://dl.acm.org/doi/abs/10.1145/3007787.3001139)
@@ -132,7 +132,7 @@ post_meta: false
   * [Slide](/cn/slides/r0/week8-2.pdf)
   * 时间：北京时间2021年4月17日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)，[录播地址](https://www.bilibili.com/video/BV18V411J7uT/)
 
-### W9：机器学习（一）
+### W9：机器学习系统（一）
 * Host: Zhiqiang
 * TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems: [white paper](http://download.tensorflow.org/paper/whitepaper2015.pdf), [OSDI paper](https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf)
   * Presenter: [Jinming Hu](https://conanhujinming.github.io/)
@@ -145,11 +145,11 @@ post_meta: false
   * [Slides](/cn/slides/r0/week9-2.pdf)
 * 时间：北京时间2021年4月24日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)，[录播地址](https://www.bilibili.com/video/BV1GA41157mJ/)
 
-### W10：机器学习（二）
+### W10：机器学习系统（二）
 * [Retiarii: A Deep Learning Exploratory-Training Framework](https://www.usenix.org/system/files/osdi20-zhang_quanlu.pdf)
   * Presenter: [Xiaohu Tang](https://github.com/tigert1998)
-* [Ansor : Generating High-Performance Tensor Programs for Deep Learning](https://arxiv.org/abs/2006.06762)
-  * Presenter: weihai 
+* GPU memory optimization during DNN training.
+  * Presenters: Ping Chen
 
 ### W11：新内存
 * transactional memory
