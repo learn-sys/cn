@@ -149,7 +149,8 @@ post_meta: false
 * [Retiarii: A Deep Learning Exploratory-Training Framework](https://www.usenix.org/system/files/osdi20-zhang_quanlu.pdf)
   * Presenter: [Xiaohu Tang](https://github.com/tigert1998)
 * GPU memory optimization during DNN training.
-  * Presenters: Ping Chen
+  * Presenter: Ping Chen
+* 时间：北京时间2021年5月9日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)
 
 ### W11：新内存
 * transactional memory
