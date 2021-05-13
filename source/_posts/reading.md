@@ -150,7 +150,7 @@ post_meta: false
   * Presenter: [Xiaohu Tang](https://github.com/tigert1998)
 * GPU memory optimization during DNN training.
   * Presenter: Ping Chen
-* 时间：北京时间2021年5月9日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)
+* 时间：北京时间2021年5月9日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)，[录播地址](https://www.bilibili.com/video/BV1VV411E7Gb/)
 
 ### W11：新内存
 * transactional memory
@@ -158,6 +158,7 @@ post_meta: false
   * Presentor : [Chi Zhang](https://github.com/skyzh), [Siyu Liu](https://github.com/liusy58)
 * [Spitfire: A Three-Tier Buffer Manager for Volatile and Non-Volatile Memory](https://zxjcarrot.github.io/publication/spitfire/spitfire.pdf)
   * Presentor : [Xinjing Zhou](https://zxjcarrot.github.io/)
+* 时间：北京时间2021年5月15日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)
 
 ### W12：计算机网络
 * [BBR Congestion-Based Congestion Control](https://dl.acm.org/doi/pdf/10.1145/3012426.3022184)
