@@ -155,11 +155,14 @@ post_meta: false
 * 时间：北京时间2021年5月9日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)，[录播地址](https://www.bilibili.com/video/BV1VV411E7Gb/)
 
 ### W11：新内存
+* Host: Ping Chen
 * transactional memory
 * [FPTree: A Hybrid SCM-DRAM Persistent and Concurrency B-Tree for Storage Class Memory](https://wwwdb.inf.tu-dresden.de/misc/papers/2016/Oukid_FPTree.pdf)
   * Presentor : [Chi Zhang](https://github.com/skyzh), [Siyu Liu](https://github.com/liusy58)
+  * [Slides1](https://docs.google.com/presentation/d/1RHVP81jJHqHhzHACu98RZMNXxRMsa1pPllqjVkfIM7g/edit?usp=sharing)
 * [Spitfire: A Three-Tier Buffer Manager for Volatile and Non-Volatile Memory](https://zxjcarrot.github.io/publication/spitfire/spitfire.pdf)
   * Presentor : [Xinjing Zhou](https://zxjcarrot.github.io/)
+  * [Slides](https://1drv.ms/p/s!ArFg8WfWy6iTwkYN5BMX7D5SPt4F)
 * 时间：北京时间2021年5月15日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)
 
 ### W12：计算机网络
