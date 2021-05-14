@@ -151,6 +151,7 @@ post_meta: false
   * [Slides](https://www.usenix.org/system/files/osdi20-zhang_quanlu.pdf)
 * GPU memory optimization during DNN training.
   * Presenter: Ping Chen
+  * [Slides](/cn/slides/r0/week10-2.pdf)
 * 时间：北京时间2021年5月9日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)，[录播地址](https://www.bilibili.com/video/BV1VV411E7Gb/)
 
 ### W11：新内存
