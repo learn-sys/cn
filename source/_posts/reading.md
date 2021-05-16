@@ -163,7 +163,7 @@ post_meta: false
 * [Spitfire: A Three-Tier Buffer Manager for Volatile and Non-Volatile Memory](https://zxjcarrot.github.io/publication/spitfire/spitfire.pdf)
   * Presentor : [Xinjing Zhou](https://zxjcarrot.github.io/)
   * [Slides](https://1drv.ms/p/s!ArFg8WfWy6iTwkYN5BMX7D5SPt4F)
-* 时间：北京时间2021年5月15日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)
+* 时间：北京时间2021年5月15日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)，[录播地址](https://www.bilibili.com/video/BV1wf4y1Y7eZ/)
 
 ### W12：计算机网络
 * [BBR Congestion-Based Congestion Control](https://dl.acm.org/doi/pdf/10.1145/3012426.3022184)
