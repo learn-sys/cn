@@ -181,7 +181,6 @@ post_meta: false
 ### W14: Learned Index
 * Host: Zhiqiang Xie
 * [The Case for Learned Index Structures](https://arxiv.org/abs/1712.01208), [this video](https://www.youtube.com/watch?v=MM33CvATm_M) might be helpful
-* [Learned Indexes for a Google-scale Disk-based Database](https://arxiv.org/abs/2012.12501)
   * Presentor: Jinming Hu
   * [Slides](/cn/slides/r0/week14.pdf)
 * 时间：北京时间2021年6月5日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)
