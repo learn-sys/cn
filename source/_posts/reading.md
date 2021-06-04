@@ -180,7 +180,7 @@ post_meta: false
 
 ### W14: Learned Index
 * Host: Zhiqiang Xie
-* [The Case for Learned Index Structures](https://arxiv.org/abs/1712.01208), [this video might be helpful](https://www.youtube.com/watch?v=MM33CvATm_M)
+* [The Case for Learned Index Structures](https://arxiv.org/abs/1712.01208), [this video](https://www.youtube.com/watch?v=MM33CvATm_M) might be helpful
 * [Learned Indexes for a Google-scale Disk-based Database](https://arxiv.org/abs/2012.12501)
   * Presentor: Jinming Hu
 
