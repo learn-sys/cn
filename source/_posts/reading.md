@@ -178,6 +178,12 @@ post_meta: false
   * [Slides - lsmt](/cn/slides/r0/week13-1.pdf)
 * 时间：北京时间2021年5月29日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117),[录播地址](https://www.bilibili.com/video/BV1Zh411Y71H/)
 
-### W14: Serverless (?)
+### W14: Learned Index
+* Host: Zhiqiang Xie
+* [The Case for Learned Index Structures](https://arxiv.org/abs/1712.01208), [this video might be helpful](https://www.youtube.com/watch?v=MM33CvATm_M)
+* [Learned Indexes for a Google-scale Disk-based Database](https://arxiv.org/abs/2012.12501)
+  * Presentor: Jinming Hu
+
+### W15: Serverless (?)
 * [SAND: Towards High-Performance Serverless Computing](https://www.usenix.org/system/files/conference/atc18/atc18-akkus.pdf)
   * Presentor: Haoqi Zhuang, Weiqi Feng
