@@ -184,7 +184,7 @@ post_meta: false
 * [The Case for Learned Index Structures](https://arxiv.org/abs/1712.01208), [this video](https://www.youtube.com/watch?v=MM33CvATm_M) might be helpful
   * Presentor: Jinming Hu
   * [Slides](/cn/slides/r0/week14.pdf)
-* 时间：北京时间2021年6月5日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)
+* 时间：北京时间2021年6月5日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117),[录播地址](https://www.bilibili.com/video/BV1V54y157oZ/)
 
 ### W15: Serverless (?)
 * [SAND: Towards High-Performance Serverless Computing](https://www.usenix.org/system/files/conference/atc18/atc18-akkus.pdf)
