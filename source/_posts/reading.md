@@ -168,6 +168,7 @@ post_meta: false
 ### W12：计算机网络
 * [BBR Congestion-Based Congestion Control](https://dl.acm.org/doi/pdf/10.1145/3012426.3022184)
   * Presentor : Yonghui Zhang
+  * [Slides](/cn/slides/r0/week12-1.pdf)
 * [Data Center TCP (DCTCP)](https://pages.cs.wisc.edu/~remzi/Classes/739/Fall2015/Papers/dctcp-10.pdf)
   * Presentor : Baochen Qiao
 * 时间：北京时间2021年5月22日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117),[录播地址](https://www.bilibili.com/video/BV1ry4y1g7AT/)
