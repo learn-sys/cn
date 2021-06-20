@@ -190,4 +190,4 @@ post_meta: false
 ### W15: Serverless (?)
 * [SAND: Towards High-Performance Serverless Computing](https://www.usenix.org/system/files/conference/atc18/atc18-akkus.pdf)
   * Presentor: Haoqi Zhuang, Weiqi Feng
-* 时间：北京时间2021年6月19日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117)
+* 时间：北京时间2021年6月19日上午9点到10点半，[直播地址](http://live.bilibili.com/21829117),[录播地址](https://www.bilibili.com/video/BV1Hy4y1g7DQ/)
