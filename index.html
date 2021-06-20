@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+    
+      <link rel="icon" href="/cn/favicon.png" />
+    
+
+    <title>
+        
+          Home - LearnSys
+        
+    </title>
+
+    <!-- Spectre.css framework -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.5.9/spectre.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.5.9/spectre-exp.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.5.9/spectre-icons.min.css">
+
+    <!-- theme css & js -->
+    
+<link rel="stylesheet" href="/cn/css/book.css">
+
+    
+<script src="/cn/js/book.js"></script>
+
+
+    <!-- tocbot -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+    
+    <!-- katex -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+
+    
+
+    
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+<body>
+
+<div class="book-container">
+  <div class="book-sidebar">
+    <div class="book-brand">
+  <a href="/cn/">
+    <img src="/cn/favicon.png">
+    <span>LEARNSYS</span>
+  </a>
+</div>
+    <div id="menu" class="book-menu hide">
+  <ul>
+<li><a href="/"><strong>主页</strong></a></li>
+</ul>
+<h1 id="课程与活动"><strong>课程与活动</strong></h1>
+<ul>
+<li><a href="/cn/csapp">CSAPP</a></li>
+<li><a href="/cn/6824">6.824</a></li>
+<li><a href="/cn/6s081">6.S081/6.828</a></li>
+<li><a href="/cn/cs144">CS144</a></li>
+<li><a href="/cn/officehour">Office Hours</a></li>
+<li><a href="/cn/reading">论文阅读小组</a></li>
+<li><a href="/cn/meet">面基</a></li>
+</ul>
+<h1 id="Archives"><strong>Archives</strong></h1>
+<h1 id="Referrals"><strong>Referrals</strong></h1>
+<ul>
+<li><a href="https://aegis-readers.github.io/About/" target="_blank" rel="noopener">AEGIS Webinar</a></li>
+<li><a href="https://github.com/prakhar1989/awesome-courses" target="_blank" rel="noopener">Awesome CS Courses</a></li>
+<li><a href="https://github.com/ossu/computer-science" target="_blank" rel="noopener">OSSU</a></li>
+</ul>
+
+</div>
+
+
+<script src="/cn/js/book-menu.js"></script>
+
+  </div>
+
+  <div class="sidebar-toggle" onclick="sidebar_toggle()" onmouseover="add_inner()" onmouseleave="remove_inner()">
+  <div class="sidebar-toggle-inner"></div>
+</div>
+
+<script>
+function add_inner() {
+  let inner = document.querySelector('.sidebar-toggle-inner')
+  inner.classList.add('show')  
+}
+
+function remove_inner() {
+  let inner = document.querySelector('.sidebar-toggle-inner')
+  inner.classList.remove('show')
+}
+
+function sidebar_toggle() {
+    let sidebar_toggle = document.querySelector('.sidebar-toggle')
+    let sidebar = document.querySelector('.book-sidebar')
+    let content = document.querySelector('.off-canvas-content')
+    if (sidebar_toggle.classList.contains('extend')) { // show
+        sidebar_toggle.classList.remove('extend')
+        sidebar.classList.remove('hide')
+        content.classList.remove('extend')
+    }
+    else { // hide
+        sidebar_toggle.classList.add('extend')
+        sidebar.classList.add('hide')
+        content.classList.add('extend')
+    }
+}
+</script>
+
+  <div class="off-canvas-content">
+    <div class="columns">
+      <div class="column col-10 col-lg-12">
+        <div class="book-navbar">
+          <!-- For Responsive Layout -->
+
+<header class="navbar">
+  <section class="navbar-section">
+    <a onclick="open_sidebar()">
+      <i class="icon icon-menu"></i>
+    </a>
+  </section>
+</header>
+
+        </div>
+        <div class="book-content">
+          <div class="book-post">
+  <h1 id="计算机系统学习小组">计算机系统学习小组</h1>
+<p>这是一个由志愿者驱动的、旨在为自学若干门系统方向的公开课的小伙伴提供<strong>抱团取暖</strong>平台的、不负责任的网站  😃</p>
+<h2 id="课程与活动">课程与活动</h2>
+<ul>
+<li>CMU CSAPP: 计算机系统基础 🔥</li>
+<li>Stanford CS144：计算机网络</li>
+<li>MIT 6.S081/6.828: 徒手造操作系统</li>
+<li>MIT 6.824：分布式系统</li>
+<li>论文阅读小组：高级操作系统/计算机系统经典论文的阅读</li>
+<li>线上面基：全球最?的??交友网站？</li>
+</ul>
+<h2 id="召唤小伙伴">召唤小伙伴</h2>
+<p>欢迎大家加群交流。不同的群有不同的准入门槛（主要是要求独立完成课程的若干个Lab证明你没在摸鱼🐟）。希望大家在加群前至少先自学一部分公开课，加群后积极讨论。</p>
+<p>这是一个由志愿者驱动的自学社区，没有人有回答问题的义务；但是，如果你觉得别人的回答有用，请在下次积极参与回答。</p>
+<p>CS公开课学习群：643874182，欢迎找不到组织的同学来这里一起建立新的组织。</p>
+<h2 id="召唤志愿者">召唤志愿者</h2>
+<p><strong>欢迎大家帮助完善这个网站，请使用 <a href="https://github.com/learn-os-cn/learn-os-cn.github.io/pulls" target="_blank" rel="noopener">Pull Requests</a> 或在 <a href="https://github.com/learn-os-cn/learn-os-cn.github.io/issues" target="_blank" rel="noopener">GitHub Issues</a> 中让我们把你加入organization。</strong></p>
+<p>欢迎大家挖新的坑。</p>
+<p>欢迎抱团群的群主们通过 <a href="https://github.com/learn-os-cn/learn-os-cn.github.io/pulls" target="_blank" rel="noopener">Pull Requests</a> 或 <a href="https://github.com/learn-os-cn/learn-os-cn.github.io/issues" target="_blank" rel="noopener">GitHub Issues</a> 加入新的课程交流群。</p>
+<p>欢迎大家来 present 你自己的、你老板的、你基友的、以及和你没什么关系的文章。</p>
+<p>欢迎业界和学术界的大佬带大家起飞。</p>
+<p>欢迎科研狗来打广告招人。</p>
+<h2 id="日历">日历</h2>
+<iframe src="https://calendar.google.com/calendar/embed?src=c_3g7ua8pt70v0h40ae6g9jcs6sk%40group.calendar.google.com&ctz=America%2FNew_York" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+</div>
+
+
+
+
+<script src="/cn/js/book-post.js"></script>
+
+        </div>
+      </div>
+      <div class="column col-2 hide-lg">
+        <div class="book-post-info">
+  
+
+  <div class="book-tocbot">
+</div>
+<div class="book-tocbot-menu">
+  <a class="book-toc-expand" onclick="expand_toc()">全部展开</a>
+  <a onclick="go_top()">回到顶部</a>
+  <a onclick="go_bottom()">前往底部</a>
+</div>
+
+
+<script src="/cn/js/book-toc.js"></script>
+
+</div>
+      </div>
+    </div>
+  </div>
+  
+  <a class="off-canvas-overlay" onclick="hide_canvas()"></a>
+</div>
+
+</body>
+</html>
+
+
+<script src="/cn/js/book.js"></script>

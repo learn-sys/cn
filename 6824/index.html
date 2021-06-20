@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+    
+      <link rel="icon" href="/cn/favicon.png" />
+    
+
+    <title>
+        
+          MIT 6.824 - LearnSys
+        
+    </title>
+
+    <!-- Spectre.css framework -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.5.9/spectre.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.5.9/spectre-exp.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.5.9/spectre-icons.min.css">
+
+    <!-- theme css & js -->
+    
+<link rel="stylesheet" href="/cn/css/book.css">
+
+    
+<script src="/cn/js/book.js"></script>
+
+
+    <!-- tocbot -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+    
+    <!-- katex -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+
+    
+
+    
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+<body>
+
+<div class="book-container">
+  <div class="book-sidebar">
+    <div class="book-brand">
+  <a href="/cn/">
+    <img src="/cn/favicon.png">
+    <span>LEARNSYS</span>
+  </a>
+</div>
+    <div id="menu" class="book-menu hide">
+  <ul>
+<li><a href="/"><strong>主页</strong></a></li>
+</ul>
+<h1 id="课程与活动"><strong>课程与活动</strong></h1>
+<ul>
+<li><a href="/cn/csapp">CSAPP</a></li>
+<li><a href="/cn/6824">6.824</a></li>
+<li><a href="/cn/6s081">6.S081/6.828</a></li>
+<li><a href="/cn/cs144">CS144</a></li>
+<li><a href="/cn/officehour">Office Hours</a></li>
+<li><a href="/cn/reading">论文阅读小组</a></li>
+<li><a href="/cn/meet">面基</a></li>
+</ul>
+<h1 id="Archives"><strong>Archives</strong></h1>
+<h1 id="Referrals"><strong>Referrals</strong></h1>
+<ul>
+<li><a href="https://aegis-readers.github.io/About/" target="_blank" rel="noopener">AEGIS Webinar</a></li>
+<li><a href="https://github.com/prakhar1989/awesome-courses" target="_blank" rel="noopener">Awesome CS Courses</a></li>
+<li><a href="https://github.com/ossu/computer-science" target="_blank" rel="noopener">OSSU</a></li>
+</ul>
+
+</div>
+
+
+<script src="/cn/js/book-menu.js"></script>
+
+  </div>
+
+  <div class="sidebar-toggle" onclick="sidebar_toggle()" onmouseover="add_inner()" onmouseleave="remove_inner()">
+  <div class="sidebar-toggle-inner"></div>
+</div>
+
+<script>
+function add_inner() {
+  let inner = document.querySelector('.sidebar-toggle-inner')
+  inner.classList.add('show')  
+}
+
+function remove_inner() {
+  let inner = document.querySelector('.sidebar-toggle-inner')
+  inner.classList.remove('show')
+}
+
+function sidebar_toggle() {
+    let sidebar_toggle = document.querySelector('.sidebar-toggle')
+    let sidebar = document.querySelector('.book-sidebar')
+    let content = document.querySelector('.off-canvas-content')
+    if (sidebar_toggle.classList.contains('extend')) { // show
+        sidebar_toggle.classList.remove('extend')
+        sidebar.classList.remove('hide')
+        content.classList.remove('extend')
+    }
+    else { // hide
+        sidebar_toggle.classList.add('extend')
+        sidebar.classList.add('hide')
+        content.classList.add('extend')
+    }
+}
+</script>
+
+  <div class="off-canvas-content">
+    <div class="columns">
+      <div class="column col-10 col-lg-12">
+        <div class="book-navbar">
+          <!-- For Responsive Layout -->
+
+<header class="navbar">
+  <section class="navbar-section">
+    <a onclick="open_sidebar()">
+      <i class="icon icon-menu"></i>
+    </a>
+  </section>
+</header>
+
+        </div>
+        <div class="book-content">
+          <div class="book-post">
+  <h1 id="MIT-6-824">MIT 6.824</h1>
+<p><strong>课程网站：</strong> <a href="https://pdos.csail.mit.edu/6.824/schedule.html" target="_blank" rel="noopener">https://pdos.csail.mit.edu/6.824/schedule.html</a><br>
+<strong>QQ群号：</strong> 1160513631<br>
+<strong>门槛：</strong> 独立完成6.824的第一个lab，入群需要验证GitHub Repo。<br>
+<strong>工具：</strong> 并行测试 <a href="https://gist.github.com/jonhoo/f686cacb4b9fe716d5aa" target="_blank" rel="noopener">https://gist.github.com/jonhoo/f686cacb4b9fe716d5aa</a></p>
+
+</div>
+
+
+  <div class="book-comments">
+    
+
+
+
+
+  </div>
+
+
+
+<script src="/cn/js/book-post.js"></script>
+
+        </div>
+      </div>
+      <div class="column col-2 hide-lg">
+        <div class="book-post-info">
+  
+
+  <div class="book-tocbot">
+</div>
+<div class="book-tocbot-menu">
+  <a class="book-toc-expand" onclick="expand_toc()">全部展开</a>
+  <a onclick="go_top()">回到顶部</a>
+  <a onclick="go_bottom()">前往底部</a>
+</div>
+
+
+<script src="/cn/js/book-toc.js"></script>
+
+</div>
+      </div>
+    </div>
+  </div>
+  
+  <a class="off-canvas-overlay" onclick="hide_canvas()"></a>
+</div>
+
+</body>
+</html>
+
+
+<script src="/cn/js/book.js"></script>

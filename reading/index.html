@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+
+    
+      <link rel="icon" href="/cn/favicon.png" />
+    
+
+    <title>
+        
+          论文阅读小组 - LearnSys
+        
+    </title>
+
+    <!-- Spectre.css framework -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.5.9/spectre.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.5.9/spectre-exp.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/spectre.css/0.5.9/spectre-icons.min.css">
+
+    <!-- theme css & js -->
+    
+<link rel="stylesheet" href="/cn/css/book.css">
+
+    
+<script src="/cn/js/book.js"></script>
+
+
+    <!-- tocbot -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tocbot/4.4.2/tocbot.css">
+    
+    <!-- katex -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+
+    
+
+    
+<meta name="generator" content="Hexo 4.2.1"></head>
+
+<body>
+
+<div class="book-container">
+  <div class="book-sidebar">
+    <div class="book-brand">
+  <a href="/cn/">
+    <img src="/cn/favicon.png">
+    <span>LEARNSYS</span>
+  </a>
+</div>
+    <div id="menu" class="book-menu hide">
+  <ul>
+<li><a href="/"><strong>主页</strong></a></li>
+</ul>
+<h1 id="课程与活动"><strong>课程与活动</strong></h1>
+<ul>
+<li><a href="/cn/csapp">CSAPP</a></li>
+<li><a href="/cn/6824">6.824</a></li>
+<li><a href="/cn/6s081">6.S081/6.828</a></li>
+<li><a href="/cn/cs144">CS144</a></li>
+<li><a href="/cn/officehour">Office Hours</a></li>
+<li><a href="/cn/reading">论文阅读小组</a></li>
+<li><a href="/cn/meet">面基</a></li>
+</ul>
+<h1 id="Archives"><strong>Archives</strong></h1>
+<h1 id="Referrals"><strong>Referrals</strong></h1>
+<ul>
+<li><a href="https://aegis-readers.github.io/About/" target="_blank" rel="noopener">AEGIS Webinar</a></li>
+<li><a href="https://github.com/prakhar1989/awesome-courses" target="_blank" rel="noopener">Awesome CS Courses</a></li>
+<li><a href="https://github.com/ossu/computer-science" target="_blank" rel="noopener">OSSU</a></li>
+</ul>
+
+</div>
+
+
+<script src="/cn/js/book-menu.js"></script>
+
+  </div>
+
+  <div class="sidebar-toggle" onclick="sidebar_toggle()" onmouseover="add_inner()" onmouseleave="remove_inner()">
+  <div class="sidebar-toggle-inner"></div>
+</div>
+
+<script>
+function add_inner() {
+  let inner = document.querySelector('.sidebar-toggle-inner')
+  inner.classList.add('show')  
+}
+
+function remove_inner() {
+  let inner = document.querySelector('.sidebar-toggle-inner')
+  inner.classList.remove('show')
+}
+
+function sidebar_toggle() {
+    let sidebar_toggle = document.querySelector('.sidebar-toggle')
+    let sidebar = document.querySelector('.book-sidebar')
+    let content = document.querySelector('.off-canvas-content')
+    if (sidebar_toggle.classList.contains('extend')) { // show
+        sidebar_toggle.classList.remove('extend')
+        sidebar.classList.remove('hide')
+        content.classList.remove('extend')
+    }
+    else { // hide
+        sidebar_toggle.classList.add('extend')
+        sidebar.classList.add('hide')
+        content.classList.add('extend')
+    }
+}
+</script>
+
+  <div class="off-canvas-content">
+    <div class="columns">
+      <div class="column col-10 col-lg-12">
+        <div class="book-navbar">
+          <!-- For Responsive Layout -->
+
+<header class="navbar">
+  <section class="navbar-section">
+    <a onclick="open_sidebar()">
+      <i class="icon icon-menu"></i>
+    </a>
+  </section>
+</header>
+
+        </div>
+        <div class="book-content">
+          <div class="book-post">
+  <h1 id="论文阅读小组">论文阅读小组</h1>
+<p>通关/正在通关6.828的小伙伴们，我们一起来读paper吧！</p>
+<p>这是一个以教学为目的的论文阅读小组，在一些学校通常作为OS的后续课程（如Advanced OS）。在这个小组中，我们将了解一些关于操作系统的高级话题，并轮流present一些在计算机系统领域有重要影响力的论文。</p>
+<h2 id="游戏规则">游戏规则</h2>
+<p>活动将每周进行一次，每次两小时，每小时一组，每组两人。其中包括20分钟的paper presentation，20分钟的Q&amp;A，以及20分钟的分组讨论（6人一组，presenter和主持人会随机乱逛）。在presentation之前，presenter需要准备以CC BY-NC-SA 4.0开源的slides，并提前上传到本页面，原则上不可以使用他人的slides，但允许使用发表在论文中、或由论文作者提供的图片、表格和代码；presentation的时间分配每人至少五分钟； presentation鼓励使用中文，但不强制。在Q&amp;A环节，除提问者外，鼓励所有人提出问题或者评论，可以是针对论文的，也可以是针对presenter的slides的；若无人主动提问，主持人会钦定提问者。</p>
+<p>在每周的活动前，所有组员应自学该周活动对应的参考资料。参考资料包括论文（至少要大概了解）和视频（约每周一小时）。目前，视频有来自清华大学的高级操作系统（<a href="http://os.cs.tsinghua.edu.cn/oscourse/AOS2020" target="_blank" rel="noopener">课程主页</a>/<a href="https://www.bilibili.com/video/BV1pC4y1x7iw?p=1" target="_blank" rel="noopener">B站</a>），感谢陈渝老师提供这些视频；上海交通大学的操作系统课程（<a href="https://ipads.se.sjtu.edu.cn/courses/os" target="_blank" rel="noopener">课程主页</a>/<a href="https://www.bilibili.com/video/BV18y4y1i73U?p=1" target="_blank" rel="noopener">B站 MOOC版</a>），感谢IPADS实验室的老师们提供这些视频。</p>
+<p>长期不来的同学将被移出小组。</p>
+<h2 id="准入门槛">准入门槛</h2>
+<p>为保证活动质量（显然，这玩意没什么scalability），论文阅读小组将只对以下三类同学开放：</p>
+<ol>
+<li>完成了MIT 6.S081或等效课程（如交大软院的OS、清华u-core、UMich EECS482等手写操作系统的课程）的超过60%的Lab的同学</li>
+<li>拿到了博士offer的同学以及一二年级博士生（高年级博士生欢迎作为主持人参加）</li>
+<li>曾在CCF C类以上系统会议上发表过论文的同学（作者顺序不限，发了A的就去做主持人吧）</li>
+</ol>
+<p>每一轮原则上32人，若人数超标，将照顾第一类同学。</p>
+<p>对于没有时间或不满足门槛、但对内容感兴趣的同学，我们也会在<a href="http://live.bilibili.com/21829117" target="_blank" rel="noopener">b站上进行直播</a>，时间为北京时间每周六上午9点到10点半。录播暂定放在<a href="https://space.bilibili.com/6441785" target="_blank" rel="noopener">这里</a>。但是观看直播和录播的同学就没法参与讨论了。</p>
+<p>也欢迎访问另一个没有门槛的、以科研为目的的、交流近期paper的讨论小组：<a href="https://aegis-readers.github.io/About/" target="_blank" rel="noopener">https://aegis-readers.github.io/About/</a></p>
+<h2 id="报名">报名</h2>
+<p>报名已结束。请想给lecture、talk、office hour的老师和同学提交 <a href="https://github.com/learn-os-cn/learn-os-cn.github.io/pulls" target="_blank" rel="noopener">Pull Requests</a>。</p>
+<h2 id="召唤志愿者-Lecturer">召唤志愿者/Lecturer</h2>
+<p>我们热烈欢迎志愿者来做lecture，不限主题、领域、方式、时长、语言。请通过 <a href="https://github.com/learn-os-cn/learn-os-cn.github.io/issues" target="_blank" rel="noopener">GitHub Issues</a> 联系我们，我们会把您的lecture加入下面的时间表。Lecturer可自行选择是否公开视频、slides和文档，以及以哪种协议、在哪个平台公开。</p>
+<p>我们也欢迎志愿者对下面的列表进行补充，请通过 <a href="https://github.com/learn-os-cn/learn-os-cn.github.io/pulls" target="_blank" rel="noopener">Pull Requests</a> 提交修改。</p>
+<p>我们也欢迎志愿做主持人的老师和同学，请通过 <a href="https://github.com/learn-os-cn/learn-os-cn.github.io/issues" target="_blank" rel="noopener">GitHub Issues</a> 联系我们。</p>
+<h2 id="参考资料与时间表">参考资料与时间表</h2>
+<h3 id="W0：破冰">W0：破冰</h3>
+<ul>
+<li>自我介绍、分组、游戏规则</li>
+<li>时间：北京时间2021年2月6日上午9点到10点半，<a href="http://live.bilibili.com/21829117" target="_blank" rel="noopener">直播地址</a>，<a href="https://www.bilibili.com/video/BV1Ty4y1Y7gB/" target="_blank" rel="noopener">录播地址</a>。</li>
+</ul>
+<h3 id="W1：操作系统">W1：操作系统</h3>
+<ul>
+<li>Video: <a href="https://www.bilibili.com/video/BV1pC4y1x7iw?p=7" target="_blank" rel="noopener">THU AOS P7 - P11</a>；<a href="https://www.youtube.com/watch?v=fZt1LILFyXY" target="_blank" rel="noopener">论文作者在SOSP2009上的talk</a></li>
+<li><a href="https://people.inf.ethz.ch/troscoe/pubs/sosp09-barrelfish.pdf" target="_blank" rel="noopener">The Multikernel: A new OS architecture for scalable multicore systems</a>
+<ul>
+<li>Presenter: <a href="https://github.com/iaGuoZhi" target="_blank" rel="noopener">Zhi Guo</a></li>
+<li>Presenter: <a href="http://mywong.cn" target="_blank" rel="noopener">Mingyan Wang</a></li>
+<li><a href="https://github.com/iaGuoZhi/PRESENTATION/blob/master/week1-multikernel.pptx" target="_blank" rel="noopener">Slide</a></li>
+</ul>
+</li>
+<li>时间：北京时间2021年2月21日上午9点到10点半，<a href="http://live.bilibili.com/21829117" target="_blank" rel="noopener">直播地址</a>，<a href="https://www.bilibili.com/video/BV1PU4y1s741/" target="_blank" rel="noopener">录播地址</a>。</li>
+</ul>
+<h3 id="W2：虚拟化">W2：虚拟化</h3>
+<ul>
+<li>Video: <a href="https://www.bilibili.com/video/BV1pC4y1x7iw?p=12" target="_blank" rel="noopener">THU AOS P12 - P21</a>；<a href="https://www.bilibili.com/video/BV18y4y1i73U?p=70" target="_blank" rel="noopener">IPADS MOS P70 - P87</a></li>
+<li>Paper List - Presenter: ZeJiong Dong &amp; Ruilin Wen
+<ul>
+<li><a href="https://www.cs.yale.edu/homes/yu-minlan/teach/csci599-fall12/papers/xen.pdf" target="_blank" rel="noopener">Xen and the Art of Virtualization</a></li>
+<li><a href="https://dl.acm.org/doi/10.1145/3132747.3132763" target="_blank" rel="noopener">My VM is Lighter (and Safer) than your Container</a> (Xen架构的改进，在<a href="https://www.bilibili.com/video/BV1pC4y1x7iw?p=12" target="_blank" rel="noopener">THU AOS P12 - P21</a>课程中已经有讲述)</li>
+<li><a href="https://www.kernel.org/doc/ols/2007/ols2007v1-pages-225-230.pdf" target="_blank" rel="noopener">kvm: the Linux Virtual Machine Monitor</a>, <a href="https://www.cs.columbia.edu/~nieh/pubs/asplos2014_kvmarm.pdf" target="_blank" rel="noopener">KVM/ARM: The Design and Implementation of the Linux ARM Hypervisor</a> (KVM的概述和在ARM下的实现)</li>
+<li><a href="https://www.usenix.org/system/files/conference/osdi12/osdi12-final-117.pdf" target="_blank" rel="noopener">Dune: Safe User-level Access to Privileged CPU Features</a> （利用Intel VT-x虚拟化技术提供进程的抽象,在<a href="https://www.bilibili.com/video/BV1pC4y1x7iw?p=12" target="_blank" rel="noopener">THU AOS P12 - P21</a>课程中已经有讲述）</li>
+<li><a href="https://www.usenix.org/system/files/conference/osdi14/osdi14-paper-peter_simon.pdf" target="_blank" rel="noopener">Arrakis: The Operating System is the Control Plane</a> (在硬件提供完善的虚拟化支持下的OS设计)</li>
+<li><a href="https://github.com/ZENOTME/PRESENTATION/blob/master/week2-part1.pdf" target="_blank" rel="noopener">W2 Slide Part1</a></li>
+<li><a href="https://github.com/ZENOTME/PRESENTATION/blob/master/week2-part2.pdf" target="_blank" rel="noopener">W2 Slide Part2</a></li>
+</ul>
+</li>
+<li><a href="https://www.usenix.org/legacy/event/osdi02/tech/full_papers/waldspurger/waldspurger.pdf" target="_blank" rel="noopener">Memory Resource Management in VMware ESX Server</a></li>
+<li><a href="https://www.usenix.org/legacy/event/nsdi05/tech/full_papers/clark/clark.pdf" target="_blank" rel="noopener">Live Migration of Virtual Machines</a>
+<ul>
+<li>Presenter: Jin Zhang</li>
+<li><a href="/cn/slides/r0/week2-2.pdf">Slide</a></li>
+</ul>
+</li>
+<li>时间：北京时间2021年2月27日上午9点到11点，<a href="http://live.bilibili.com/21829117" target="_blank" rel="noopener">直播地址</a>，<a href="https://www.bilibili.com/video/BV1eK4y1J7Ym/" target="_blank" rel="noopener">录播地址</a>。</li>
+</ul>
+<h3 id="W3：FPGA上的系统支持、从0开始写系统全家桶">W3：FPGA上的系统支持、从0开始写系统全家桶</h3>
+<ul>
+<li><a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/Catapult_ISCA_2014.pdf" target="_blank" rel="noopener">Catapult</a>, <a href="http://enzian.systems/" target="_blank" rel="noopener">Enzian</a>, <a href="https://www.usenix.org/system/files/osdi18-khawaja.pdf" target="_blank" rel="noopener">AmorphOS</a>, <a href="https://dl.acm.org/doi/abs/10.1145/3373376.3378482" target="_blank" rel="noopener">Optimus</a>, and <a href="https://www.usenix.org/system/files/osdi20-korolija.pdf" target="_blank" rel="noopener">Coyote</a>
+<ul>
+<li>Presenter: <a href="https://jcma.me" target="_blank" rel="noopener">Jiacheng Ma</a></li>
+<li>Papers are for reference only; you are not required to read them before the event.</li>
+<li><a href="/cn/slides/r0/week3-1.pdf">Slide</a></li>
+</ul>
+</li>
+<li>在自己写的CPU上用自己写的编译器编译自己写的操作系统并在上面跑自己写的程序
+<ul>
+<li>Presenter: <a href="https://github.com/codetector1374" target="_blank" rel="noopener">Yaotian Feng</a></li>
+<li><a href="/cn/slides/r0/week3-2.pdf">Slide</a></li>
+</ul>
+</li>
+<li>时间：北京时间2021年3月6日上午9点到10点半，<a href="http://live.bilibili.com/21829117" target="_blank" rel="noopener">直播地址</a>，<a href="https://www.bilibili.com/video/BV1WZ4y1P7Yr/" target="_blank" rel="noopener">录播地址</a></li>
+</ul>
+<h3 id="W4：网络、分布式系统（一）">W4：网络、分布式系统（一）</h3>
+<ul>
+<li><a href="https://www.usenix.org/conference/nsdi20/presentation/yan" target="_blank" rel="noopener">Learning in situ: a randomized experiment in video streaming</a>
+<ul>
+<li>Presenter: Yuanli Wang @pentium3</li>
+<li><a href="https://github.com/pentium3/mlsys_reading/files/5296409/situ.pptx" target="_blank" rel="noopener">Slide</a></li>
+</ul>
+</li>
+<li><a href="https://static.googleusercontent.com/media/research.google.com/en//archive/gfs-sosp2003.pdf" target="_blank" rel="noopener">The Google File System</a>
+<ul>
+<li>Presenter: Xiangyun Ding, Jing Li</li>
+<li><a href="https://docs.google.com/presentation/d/1Cov2lkKuf90SisaDh7arrUuu6deVacpOJoLbIYEOgO0/edit?usp=sharing" target="_blank" rel="noopener">slide</a></li>
+</ul>
+</li>
+<li>时间：北京时间2021年3月13日上午9点到10点半，<a href="http://live.bilibili.com/21829117" target="_blank" rel="noopener">直播地址</a>，<a href="https://www.bilibili.com/video/BV1DN411Q7cJ/" target="_blank" rel="noopener">录播地址</a></li>
+</ul>
+<h3 id="W5：分布式系统（二）">W5：分布式系统（二）</h3>
+<ul>
+<li><a href="https://static.googleusercontent.com/media/research.google.com/en//archive/mapreduce-osdi04.pdf" target="_blank" rel="noopener">MapReduce: Simplified Data Processing on Large Clusters</a>
+<ul>
+<li>Presenter: Wenyan Li</li>
+<li>Presenter: Hao Feng</li>
+<li><a href="/cn/slides/r0/week5-1.pdf">Slide</a></li>
+</ul>
+</li>
+<li><a href="https://lamport.azurewebsites.net/pubs/time-clocks.pdf" target="_blank" rel="noopener">Time, Clocks, and the Ordering of Events in a Distributed System</a>
+<ul>
+<li>Presenter: <a href="https://github.com/lijunchen" target="_blank" rel="noopener">Junchen Li</a></li>
+<li>Presenter: Yi Zhang</li>
+<li><a href="https://lamport.azurewebsites.net/pubs/pubs.html#time-clocks" target="_blank" rel="noopener">Lamport’s comment on this paper</a></li>
+<li><a href="/cn/slides/r0/week5-2.pdf">Slide</a></li>
+</ul>
+</li>
+<li>时间：北京时间2021年3月20日上午9点到10点半，<a href="http://live.bilibili.com/21829117" target="_blank" rel="noopener">直播地址</a>，<a href="https://www.bilibili.com/video/BV1y54y187Tn/" target="_blank" rel="noopener">录播地址</a></li>
+</ul>
+<h3 id="W6：程序分析、Debugging">W6：程序分析、Debugging</h3>
+<ul>
+<li><a href="http://www.doc.ic.ac.uk/~cristic/papers/klee-osdi-08.pdf" target="_blank" rel="noopener">KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs</a> (Is this the best paper of symbolic execution?)
+<ul>
+<li>Presenter: Yongkang Meng</li>
+</ul>
+</li>
+<li>时间：北京时间2021年3月27日上午9点到10点半，<a href="http://live.bilibili.com/21829117" target="_blank" rel="noopener">直播地址</a>，<a href="https://www.bilibili.com/video/BV1Ty4y1b7iq/" target="_blank" rel="noopener">录播地址</a></li>
+<li><a href="/cn/slides/r0/week6-1.pdf">Slide</a></li>
+</ul>
+<h3 id="W7：安全和隐私">W7：安全和隐私</h3>
+<ul>
+<li>Host: Yu Liu</li>
+<li><a href="https://meltdownattack.com/meltdown.pdf" target="_blank" rel="noopener">Meltdown</a></li>
+<li><a href="https://spectreattack.com/spectre.pdf" target="_blank" rel="noopener">Spectre</a> (TBD)
+<ul>
+<li>Presenter: MonKey Lee, Ruilin Wen</li>
+</ul>
+</li>
+<li>时间：北京时间2021年4月10日上午9点到10点半，<a href="http://live.bilibili.com/21829117" target="_blank" rel="noopener">直播地址</a>，<a href="https://www.bilibili.com/video/BV1nb4y1D7ii/" target="_blank" rel="noopener">录播地址</a></li>
+<li><a href="/cn/slides/r0/week7-1.pdf">Slide</a></li>
+</ul>
+<h3 id="W8：GPU-PIM（Processing-in-memory）">W8：GPU &amp; PIM（Processing in memory）</h3>
+<ul>
+<li>Introduction to GPU and GPU programming
+<ul>
+<li>Presenters: Ping Chen</li>
+<li><a href="/cn/slides/r0/week8-1.pdf">Slide</a></li>
+</ul>
+</li>
+<li><a href="https://dl.acm.org/doi/abs/10.1145/3007787.3001139" target="_blank" rel="noopener">ISAAC: a convolutional neural network accelerator with in-situ analog arithmetic in crossbars</a>
+<ul>
+<li>Presenters: Siling Yang</li>
+<li><a href="/cn/slides/r0/week8-2.pdf">Slide</a></li>
+<li>时间：北京时间2021年4月17日上午9点到10点半，<a href="http://live.bilibili.com/21829117" target="_blank" rel="noopener">直播地址</a>，<a href="https://www.bilibili.com/video/BV18V411J7uT/" target="_blank" rel="noopener">录播地址</a></li>
+</ul>
+</li>
+</ul>
+<h3 id="W9：机器学习系统（一）">W9：机器学习系统（一）</h3>
+<ul>
+<li>Host: Zhiqiang</li>
+<li>TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems: <a href="http://download.tensorflow.org/paper/whitepaper2015.pdf" target="_blank" rel="noopener">white paper</a>, <a href="https://www.usenix.org/system/files/conference/osdi16/osdi16-abadi.pdf" target="_blank" rel="noopener">OSDI paper</a>
+<ul>
+<li>Presenter: <a href="https://conanhujinming.github.io/" target="_blank" rel="noopener">Jinming Hu</a></li>
+<li>Presenter: Simei He</li>
+<li>If you know nothing about AI&amp;ML, <a href="https://www.youtube.com/watch?v=vzoe2G5g-w4" target="_blank" rel="noopener">this video by Jeff Dean</a> may be useful</li>
+<li>This <a href="https://github.com/tensorflow/docs/blob/master/site/en/r1/guide/extend/architecture.md" target="_blank" rel="noopener">official architecture overview</a> is also helpful.</li>
+<li><a href="/cn/slides/r0/week9-1.pdf">Slide</a></li>
+</ul>
+</li>
+<li><a href="https://arxiv.org/pdf/1802.04799.pdf" target="_blank" rel="noopener">TVM: An Automated End-to-End Optimizing Compiler for Deep Learning</a>
+<ul>
+<li>Presenter: <a href="https://tson1111.github.io/" target="_blank" rel="noopener">Cong Ding</a>, rainie</li>
+<li><a href="/cn/slides/r0/week9-2.pdf">Slides</a></li>
+</ul>
+</li>
+<li>时间：北京时间2021年4月24日上午9点到10点半，<a href="http://live.bilibili.com/21829117" target="_blank" rel="noopener">直播地址</a>，<a href="https://www.bilibili.com/video/BV1GA41157mJ/" target="_blank" rel="noopener">录播地址</a></li>
+</ul>
+<h3 id="W10：机器学习系统（二）">W10：机器学习系统（二）</h3>
+<ul>
+<li><a href="https://www.usenix.org/system/files/osdi20-zhang_quanlu.pdf" target="_blank" rel="noopener">Retiarii: A Deep Learning Exploratory-Training Framework</a>
+<ul>
+<li>Presenter: <a href="https://github.com/tigert1998" target="_blank" rel="noopener">Xiaohu Tang</a></li>
+<li><a href="https://www.usenix.org/system/files/osdi20-zhang_quanlu.pdf" target="_blank" rel="noopener">Slides</a></li>
+</ul>
+</li>
+<li>GPU memory optimization during DNN training.
+<ul>
+<li>Presenter: Ping Chen</li>
+<li><a href="/cn/slides/r0/week10-2.pdf">Slides</a></li>
+</ul>
+</li>
+<li>时间：北京时间2021年5月9日上午9点到10点半，<a href="http://live.bilibili.com/21829117" target="_blank" rel="noopener">直播地址</a>，<a href="https://www.bilibili.com/video/BV1VV411E7Gb/" target="_blank" rel="noopener">录播地址</a></li>
+</ul>
+<h3 id="W11：新内存">W11：新内存</h3>
+<ul>
+<li>Host: Ping Chen</li>
+<li>transactional memory</li>
+<li><a href="https://wwwdb.inf.tu-dresden.de/misc/papers/2016/Oukid_FPTree.pdf" target="_blank" rel="noopener">FPTree: A Hybrid SCM-DRAM Persistent and Concurrency B-Tree for Storage Class Memory</a>
+<ul>
+<li>Presentor : <a href="https://github.com/skyzh" target="_blank" rel="noopener">Chi Zhang</a>, <a href="https://github.com/liusy58" target="_blank" rel="noopener">Siyu Liu</a></li>
+<li><a href="https://docs.google.com/presentation/d/1RHVP81jJHqHhzHACu98RZMNXxRMsa1pPllqjVkfIM7g/edit?usp=sharing" target="_blank" rel="noopener">Slides1</a></li>
+</ul>
+</li>
+<li><a href="https://zxjcarrot.github.io/publication/spitfire/spitfire.pdf" target="_blank" rel="noopener">Spitfire: A Three-Tier Buffer Manager for Volatile and Non-Volatile Memory</a>
+<ul>
+<li>Presentor : <a href="https://zxjcarrot.github.io/" target="_blank" rel="noopener">Xinjing Zhou</a></li>
+<li><a href="https://1drv.ms/p/s!ArFg8WfWy6iTwkYN5BMX7D5SPt4F" target="_blank" rel="noopener">Slides</a></li>
+</ul>
+</li>
+<li>时间：北京时间2021年5月15日上午9点到10点半，<a href="http://live.bilibili.com/21829117" target="_blank" rel="noopener">直播地址</a>，<a href="https://www.bilibili.com/video/BV1wf4y1Y7eZ/" target="_blank" rel="noopener">录播地址</a></li>
+</ul>
+<h3 id="W12：计算机网络">W12：计算机网络</h3>
+<ul>
+<li><a href="https://dl.acm.org/doi/pdf/10.1145/3012426.3022184" target="_blank" rel="noopener">BBR Congestion-Based Congestion Control</a>
+<ul>
+<li>Presentor : Yonghui Zhang</li>
+<li><a href="/cn/slides/r0/week12-1.pdf">Slides</a></li>
+</ul>
+</li>
+<li><a href="https://pages.cs.wisc.edu/~remzi/Classes/739/Fall2015/Papers/dctcp-10.pdf" target="_blank" rel="noopener">Data Center TCP (DCTCP)</a>
+<ul>
+<li>Presentor : Baochen Qiao</li>
+</ul>
+</li>
+<li>时间：北京时间2021年5月22日上午9点到10点半，<a href="http://live.bilibili.com/21829117" target="_blank" rel="noopener">直播地址</a>,<a href="https://www.bilibili.com/video/BV1ry4y1g7AT/" target="_blank" rel="noopener">录播地址</a></li>
+</ul>
+<h3 id="W13：Log-Structured-Merge-Trees">W13：Log-Structured Merge Trees</h3>
+<ul>
+<li><a href="https://www.usenix.org/system/files/osdi20-dai_0.pdf" target="_blank" rel="noopener">From WiscKey to Bourbon: A Learned Index for Log-Structured Merge Trees</a>
+<ul>
+<li>Presentor : <a href="https://github.com/lambda7xx/" target="_blank" rel="noopener">lambda</a>, <a href="https://zjs1224522500.github.io/" target="_blank" rel="noopener">Nope</a></li>
+<li><a href="/cn/slides/r0/week13-1.pdf">Slides - lsmt</a></li>
+<li><a href="https://github.com/learn-sys/cn/blob/master/source/slides/r0/w13-bourbon.pdf" target="_blank" rel="noopener">Slides - Bourbon</a></li>
+</ul>
+</li>
+<li>时间：北京时间2021年5月29日上午9点到10点半，<a href="http://live.bilibili.com/21829117" target="_blank" rel="noopener">直播地址</a>,<a href="https://www.bilibili.com/video/BV1Zh411Y71H/" target="_blank" rel="noopener">录播地址</a></li>
+</ul>
+<h3 id="W14-Learned-Index">W14: Learned Index</h3>
+<ul>
+<li>Host: Zhiqiang Xie</li>
+<li><a href="https://arxiv.org/abs/1712.01208" target="_blank" rel="noopener">The Case for Learned Index Structures</a>, <a href="https://www.youtube.com/watch?v=MM33CvATm_M" target="_blank" rel="noopener">this video</a> might be helpful
+<ul>
+<li>Presentor: Jinming Hu</li>
+<li><a href="/cn/slides/r0/week14.pdf">Slides</a></li>
+</ul>
+</li>
+<li>时间：北京时间2021年6月5日上午9点到10点半，<a href="http://live.bilibili.com/21829117" target="_blank" rel="noopener">直播地址</a>,<a href="https://www.bilibili.com/video/BV1V54y157oZ/" target="_blank" rel="noopener">录播地址</a></li>
+</ul>
+<h3 id="W15-Serverless">W15: Serverless (?)</h3>
+<ul>
+<li><a href="https://www.usenix.org/system/files/conference/atc18/atc18-akkus.pdf" target="_blank" rel="noopener">SAND: Towards High-Performance Serverless Computing</a>
+<ul>
+<li>Presentor: Haoqi Zhuang, Weiqi Feng</li>
+</ul>
+</li>
+<li>时间：北京时间2021年6月19日上午9点到10点半，<a href="http://live.bilibili.com/21829117" target="_blank" rel="noopener">直播地址</a>,<a href="https://www.bilibili.com/video/BV1Hy4y1g7DQ/" target="_blank" rel="noopener">录播地址</a></li>
+</ul>
+
+</div>
+
+
+  <div class="book-comments">
+    
+
+
+
+
+  </div>
+
+
+
+<script src="/cn/js/book-post.js"></script>
+
+        </div>
+      </div>
+      <div class="column col-2 hide-lg">
+        <div class="book-post-info">
+  
+
+  <div class="book-tocbot">
+</div>
+<div class="book-tocbot-menu">
+  <a class="book-toc-expand" onclick="expand_toc()">全部展开</a>
+  <a onclick="go_top()">回到顶部</a>
+  <a onclick="go_bottom()">前往底部</a>
+</div>
+
+
+<script src="/cn/js/book-toc.js"></script>
+
+</div>
+      </div>
+    </div>
+  </div>
+  
+  <a class="off-canvas-overlay" onclick="hide_canvas()"></a>
+</div>
+
+</body>
+</html>
+
+
+<script src="/cn/js/book.js"></script>
